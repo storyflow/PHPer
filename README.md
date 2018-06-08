@@ -6,7 +6,7 @@
 * [环境搭建](#环境搭建)
 * [编程语言](#编程语言)
 * [代码质量](#代码质量)
-* [PHP基础](#PHP基础)
+* [PHP](#PHP)
 * [安全](#安全)
 * [数据库](#数据库)
 * [NoSQL](#NoSQL)
@@ -63,14 +63,24 @@
     - [PHPUnit](https://phpunit.de/)
 - 自动化测试
 
-## PHP基础
+## PHP
+- PHP基础
 - 自动加载
 - 命名空间
+- 依赖管理： [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/)
+- [PHP标准库](http://php.net/manual/zh/book.spl.php)
+
 
 ## 安全
 - [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 - [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)
 - [Same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy)
+- [Web 应用程序安全](http://phpsecurity.readthedocs.io/en/latest/index.html)
+- 密码哈希: [加盐处理](https://en.wikipedia.org/wiki/Salt_(cryptography))/[password_hash](http://php.net/manual/zh/function.password-hash.php)
+- 数据过滤
+- 配置文件
+- 注册全局变量
+- 错误报告
 
 ## 数据库
 - Mysql
@@ -126,13 +136,27 @@
     - 一致性、事务
     - 锁
 - 操作系统
-    - 
+    - 计算机原理
+    - CPU
+    - 多级缓存
+    - 进程
+    - 线程
+    - 携程
 
 ## 架构
 - 高并发
 - 高性能
 - 高可用
 - 中间件
+    - Web Server
+    - 缓存
+    - 消息队列
+    - 定时调度
+    - RPC
+    - 数据库中间件
+    - 日志系统
+    - 配置中心
+    - API网关
 - 分布式/集群
 
 ## 业务
