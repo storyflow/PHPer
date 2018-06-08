@@ -10,14 +10,16 @@
 * [安全](#安全)
 * [数据库](#数据库)
 * [框架](#框架)
-* [推荐](#推荐)
 * [计算机基础](#计算机基础)
 * [编程知识储备](#编程知识储备)
 * [架构](#架构)
+* [运维&统计](#运维&统计)
+* [微服务](#微服务)
 * [业务](#业务)
 * [文档规范](#文档规范)
 * [开发流程](#开发流程)
 * [软技能](#软技能)
+* [附录](#附录)
 
 
 ## 开发工具
@@ -71,10 +73,15 @@
 
 ## PHP
 - PHP基础
+    - [语言参考](http://php.net/manual/zh/langref.php)
+    - [安全](http://php.net/manual/zh/security.php)
+    - [特点](http://php.net/manual/zh/features.php)
+    - [函数参考](http://php.net/manual/zh/funcref.php)
 - 自动加载
 - 命名空间
 - 依赖管理： [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/)
 - [PHP标准库](http://php.net/manual/zh/book.spl.php)
+- PHP扩展
 
 
 ## 安全
@@ -89,6 +96,8 @@
 - 错误报告
 
 ## 数据库
+#### 基础理论
+- 数据库设计的三大范式
 
 #### 关系型数据库
 - Mysql
@@ -99,7 +108,7 @@
   -使用PHP操作MySQL（PDO、Prepare、Bind）
 - SQLite
 
-#### NoSQL
+#### NoSQL数据库
 - Memcached
 - Redis
 - MongoDB
@@ -113,9 +122,6 @@
 - [Phalcon](https://phalconphp.com/zh/)
 - [ThinkPHP](http://www.thinkphp.cn/)
 - [Swoole](https://www.swoole.com/)
-
-## 推荐
-- [PHP之道](https://laravel-china.github.io/php-the-right-way/#language_highlights)
 
 ## 计算机基础
 - 编译原理
@@ -138,7 +144,7 @@
 - [闭包](http://www.jibbering.com/faq/notes/closures/)
 - [编程范型](http://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B)
 - [设计模式](https://github.com/domnikl/DesignPatternsPHP)
-- 并发
+- 网络编程&并发
     - 多线程
     - 线程安全
     - 一致性、事务
@@ -149,9 +155,10 @@
     - 多级缓存
     - 进程
     - 线程
-    - 携程
+    - 协程
 
 ## 架构
+- 复杂度
 - 高并发
 - 高性能
 - 高可用
@@ -167,19 +174,36 @@
     - API网关
 - 分布式/集群
 
+## 运维&统计
+- 持续集成(CI/CD)
+- 测试
+    - TDD 理论
+    - 单元测试
+    - 压力测试
+    - 全链路压测
+    - A/B、灰度、蓝绿测试
+- 虚拟化
+- 容器技术
+## 微服务
+
 ## 业务
 - 搜索
-    -  Sphinx
-    -  Solr
-    -  Elasticsearch
+    - Elasticsearch
+    - Sphinx
+    - Solr
 
 ## 文档规范
 - 文档
-  - 设计交付文档
-  - URL接口文档
-  - 数据库文档
+    - 设计交付文档
+    - URL接口文档
+    - 数据库文档
 - 规范
-  - [HTTP](https://zh.wikipedia.org/zh-hans/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
+    - [HTTP](https://zh.wikipedia.org/zh-hans/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
+- 工具
+    - [石墨文档](https://shimo.im/)
+    - [语雀](https://yuque.com/)
+    - [GitBook](https://www.gitbook.com/)
+    - [KanCloud](https://www.kancloud.cn)
 
 ## 开发流程
 - 编码
@@ -197,3 +221,7 @@
     - [刻意练习](https://book.douban.com/subject/26895993/)
 - 团队合作
 - 执行力
+
+## 附录
+- [PHP之道](https://laravel-china.github.io/php-the-right-way/#language_highlights)
+- [技术网站及博客集锦](https://github.com/han8gui/technology-website)
