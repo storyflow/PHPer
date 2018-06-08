@@ -1,21 +1,23 @@
-## PHP开发知识结构
+# PHP开发知识结构
 
+## 目录 
+#### 基础 => 进阶 => 结构 => 业务 => 软技能
 * [开发工具](#开发工具)
-* [代码质量](#代码质量)
 * [环境搭建](#环境搭建)
 * [编程语言](#编程语言)
-* [文档规范](#文档规范)
-* [PHP](#PHP)
+* [代码质量](#代码质量)
+* [PHP基础](#PHP基础)
 * [安全](#安全)
 * [数据库](#数据库)
 * [NoSQL](#NoSQL)
-* [开发流程](#开发流程)
 * [框架](#框架)
 * [推荐](#推荐)
-* [计算机基础](#计算器基础)
+* [计算机基础](#计算机基础)
 * [编程知识储备](#编程知识储备)
 * [架构](#架构)
 * [业务](#业务)
+* [文档规范](#文档规范)
+* [开发流程](#开发流程)
 * [软技能](#软技能)
 
 
@@ -28,6 +30,7 @@
     - [Notepad++](https://notepad-plus-plus.org/)
 
 - 调试工具
+    - [xhprof](http://php.net/manual/zh/book.xhprof.php)
     - [xdebug](https://xdebug.org/index.php)
     - [Fiddler](https://www.telerik.com/fiddler)
     - [Chrome Dev Tools](https://developer.chrome.com/devtools)
@@ -36,14 +39,6 @@
     - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)
     - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)
 
-## 代码质量
-- 编码风格
-    - [PSR](https://www.php-fig.org/psr/)
-    - [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-    - [Clean Code PHP](https://github.com/php-cpm/clean-code-php)
-- 单元测试
-    - [PHPUnit](https://phpunit.de/)
-- 自动化测试
 
 
 ## 环境搭建
@@ -56,18 +51,22 @@
 ## 编程语言
 - 前端：CSS/Html/JavaScript/bootstrap
 - LNMP：Linux/Nginx/Apache/Mysql/PHP
-- Vuejs
+- 前端框架：Vuejs/React
 - Golang
 
-## 文档规范
-- 文档
-  - 设计交付文档
-  - URL接口文档
-  - 数据库文档
-- 规范
-  - [HTTP](https://zh.wikipedia.org/zh-hans/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
+## 代码质量
+- 编码风格
+    - [PSR](https://www.php-fig.org/psr/)
+    - [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+    - [Clean Code PHP](https://github.com/php-cpm/clean-code-php)
+- 单元测试
+    - [PHPUnit](https://phpunit.de/)
+- 自动化测试
 
-## PHP
+
+
+
+## PHP基础
 - 自动加载
 - 命名空间
 
@@ -75,7 +74,6 @@
 - [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 - [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)
 - [Same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy)
-
 
 ## 数据库
 - Mysql
@@ -90,12 +88,6 @@
 - Memcache
 - Redis
 - MongoDB
-
-## 开发流程
-- 编码
-- 测试
-- 部署
-- 监控 
 
 ## 框架
 - Yii
@@ -131,6 +123,20 @@
     -  Sphinx
     -  Solr
     -  Elasticsearch
+
+## 文档规范
+- 文档
+  - 设计交付文档
+  - URL接口文档
+  - 数据库文档
+- 规范
+  - [HTTP](https://zh.wikipedia.org/zh-hans/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
+
+## 开发流程
+- 编码
+- 测试
+- 部署
+- 监控 
 
 ## 软技能
 - 沟通能力
