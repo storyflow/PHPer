@@ -87,9 +87,11 @@
 - MongoDB
 
 ## 框架
-- Yii
-- symfony
-- codeigniter
+- [Laravel](https://laravel.com/)
+- [Yii](https://www.yiiframework.com/)
+    - [权威指南](http://www.yiichina.com/doc/guide/2.0)
+- [symfony](https://symfony.com/)
+- [codeigniter](https://codeigniter.com/)
 
 ## 推荐
 - [PHP之道](https://laravel-china.github.io/php-the-right-way/#language_highlights)
@@ -99,15 +101,29 @@
 - 计算机网络
 - 操作系统
 - 算法原理
-  -
 - 计算机组成原理
 
 ## 编程知识储备
 - [数据结构](http://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+    - 数组（Array）
+    - 堆栈（Stack）
+    - 队列（Queue）
+    - 链表（Linked List）
+    - 树（Tree）
+    - 图（Graph）
+    - 堆（Heap）
+    - 散列表（Hash）
 - [OOP](https://zh.wikipedia.org/zh-hans/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)/[AOP](https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
 - [闭包](http://www.jibbering.com/faq/notes/closures/)
 - [编程范型](http://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B)
-- [设计模式](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [设计模式](https://github.com/domnikl/DesignPatternsPHP)
+- 并发
+    - 多线程
+    - 线程安全
+    - 一致性、事务
+    - 锁
+- 操作系统
+    - 
 
 ## 架构
 - 高并发
