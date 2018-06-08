@@ -9,7 +9,6 @@
 * [PHP](#PHP)
 * [安全](#安全)
 * [数据库](#数据库)
-* [NoSQL](#NoSQL)
 * [框架](#框架)
 * [推荐](#推荐)
 * [计算机基础](#计算机基础)
@@ -59,7 +58,7 @@
 - 前端：CSS/Html/JavaScript/bootstrap
 - LNMP：Linux/Nginx/Apache/Mysql/PHP
 - 前端框架：Vuejs/React
-- Golang
+- 其他：Golang/Java
 
 ## 代码质量
 - 编码风格
@@ -90,6 +89,8 @@
 - 错误报告
 
 ## 数据库
+
+#### 关系型数据库
 - Mysql
   - SQL基本（SELECT、UPDATE、INSERT、DELETE、JOIN、子查询）
   - MySQL特性（表引擎、字段类型、函数、索引类型）
@@ -98,7 +99,7 @@
   -使用PHP操作MySQL（PDO、Prepare、Bind）
 - SQLite
 
-## NoSQL
+#### NoSQL
 - Memcached
 - Redis
 - MongoDB
@@ -190,6 +191,9 @@
 - 沟通能力
 - 责任感
 - 逻辑思维
+    - [金字塔原理](https://book.douban.com/subject/1020644/) 
 - 分析问题、解决问题
 - 学习能力
+    - [刻意练习](https://book.douban.com/subject/26895993/)
 - 团队合作
+- 执行力
