@@ -29,6 +29,11 @@
     - [VS code](https://code.visualstudio.com/)
     - [Notepad++](https://notepad-plus-plus.org/)
 
+- 服务器组件
+    - [XAMPP](https://www.apachefriends.org/zh_cn/index.html)* 
+    - [WampServer](http://www.wampserver.com)
+    - [phpStudy](http://phpstudy.php.cn/)
+
 - 调试工具
     - [xhprof](http://php.net/manual/zh/book.xhprof.php)
     - [xdebug](https://xdebug.org/index.php)
@@ -39,7 +44,9 @@
     - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)
     - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)
 
-
+- Mysql
+    - [Navicat for Mysql](https://www.navicat.com.cn/)
+    - [PhpMyAdmin](https://www.phpmyadmin.net/)
 
 ## 环境搭建
 - Linux
@@ -92,7 +99,7 @@
 - SQLite
 
 ## NoSQL
-- Memcache
+- Memcached
 - Redis
 - MongoDB
 
