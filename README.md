@@ -59,7 +59,7 @@
 ## 编程语言
 - 前端：CSS/Html/JavaScript/bootstrap
 - LNMP：Linux/Nginx/Apache/Mysql/PHP
-- 前端框架：Vuejs/React
+- 前端框架：Vuejs/React/Angular
 - 其他：Golang/Java
 
 ## 代码质量
