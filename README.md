@@ -92,6 +92,9 @@
     - [权威指南](http://www.yiichina.com/doc/guide/2.0)
 - [symfony](https://symfony.com/)
 - [codeigniter](https://codeigniter.com/)
+- [Phalcon](https://phalconphp.com/zh/)
+- [ThinkPHP](http://www.thinkphp.cn/)
+- [Swoole](https://www.swoole.com/)
 
 ## 推荐
 - [PHP之道](https://laravel-china.github.io/php-the-right-way/#language_highlights)
