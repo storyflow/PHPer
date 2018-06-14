@@ -50,14 +50,14 @@
     - [PhpMyAdmin](https://www.phpmyadmin.net/)
 
 ## 环境搭建
-- Linux
-- Nginx
-- Apache
-- Mysql
-- PHP
+- [Linux](https://zh.wikipedia.org/zh/Linux)
+- [Nginx](https://nginx.org/en/)
+- [Apache](http://www.apache.org/)
+- [Mysql](https://dev.mysql.com/doc/)
+- [PHP](http://php.net/manual/zh/install.php)
 
 ## 编程语言
-- 前端：CSS/Html/JavaScript/bootstrap
+- 前端：CSS/Html/JavaScript/[bootstrap](https://getbootstrap.com/)
 - LNMP：Linux/Nginx/Apache/Mysql/PHP
 - 前端框架：Vuejs/React/Angular
 - 其他：Golang/Java
@@ -188,7 +188,9 @@
 
 ## 应用
 - 用户
+    - [单点登录](https://zh.wikipedia.org/wiki/%E5%96%AE%E4%B8%80%E7%99%BB%E5%85%A5)
 - 权限
+    - [权限系统](https://tech.youzan.com/sam/)
 - 业务
 - 搜索
     - Elasticsearch
