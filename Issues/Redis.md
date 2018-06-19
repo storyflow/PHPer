@@ -1,5 +1,4 @@
 
-
 ## 常见问题
 1. 如果最大值对应的key
  ./redis-cli --bigkeys
