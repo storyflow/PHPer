@@ -24,9 +24,9 @@
 
 ## 开发工具
 - 编辑器和IDE
-    - [PhpStorm](https://www.jetbrains.com/phpstorm/)
+    - [PhpStorm](https://www.jetbrains.com/phpstorm/) - [讨论](https://github.com/han8gui/PHPer/issues/7)
     - [VIM](http://www.vim.org/)
-    - [Sublime Text](http://www.sublimetext.com/)
+    - [Sublime Text](http://www.sublimetext.com/) - [使用](https://github.com/han8gui/PHPer/blob/master/Tools/Sublime.md)
     - [VS code](https://code.visualstudio.com/)
     - [Notepad++](https://notepad-plus-plus.org/)
 
