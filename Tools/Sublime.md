@@ -38,6 +38,8 @@ E36B85CC 84991F19 7575D828 470A92AB
 * [MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
 * [markdown preview](https://github.com/revolunet/sublimetext-markdown-preview)
 * [auto-save](https://packagecontrol.io/packages/auto-save)
+* [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
+* [ConvertToUTF8](https://github.com/seanliang/ConvertToUTF8)
 
 ## 常见问题
 
@@ -53,8 +55,8 @@ E36B85CC 84991F19 7575D828 470A92AB
     请下载auto-save插件，自动保存不是默认开启的
     Command + Shift + P， 搜AutoSave。选择Toggle AutoSave: all files
 
-4. 如何分屏
+4. 如何分屏  
     [sublime text3怎么分屏显示及关闭分屏](https://jingyan.baidu.com/article/25648fc19473bb9191fd00c2.html)
 
-5. Sublime Text 3中文乱码问题
+5. Sublime Text 3中文乱码问题  
     安装插件：ConvertToUTF8 或者 GBK Encoding Support
