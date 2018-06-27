@@ -82,6 +82,7 @@
 - 依赖管理： [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/)
 - [PHP标准库](http://php.net/manual/zh/book.spl.php)
 - PHP扩展
+- [PHP内核](https://github.com/reeze/tipi)
 
 
 ## 安全
