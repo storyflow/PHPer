@@ -1,4 +1,7 @@
 # 资源
+## 站点
+* [深入理解php内核](http://php-internals.com/)
+* [PHP面向对象(OOP)编程完全教程](https://www.kancloud.cn/webxyl/php_oop/68882)
 
 ## 文章
 * [程序员练级攻略](https://coolshell.cn/articles/18360.html)  `2018`
