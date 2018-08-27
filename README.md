@@ -44,10 +44,14 @@
 - 版本管理
     - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)
     - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)
+    - [Sourcetree](https://cn.atlassian.com/software/sourcetree)
 
 - Mysql
     - [Navicat for Mysql](https://www.navicat.com.cn/)
     - [PhpMyAdmin](https://www.phpmyadmin.net/)
+
+- Redis
+    - [redisdesktop](https://redisdesktop.com/) 
 
 ## 环境搭建
 - [Linux](https://zh.wikipedia.org/zh/Linux)
@@ -185,7 +189,12 @@
     - A/B、灰度、蓝绿测试
 - 虚拟化
 - 容器技术
+
 ## 微服务
+- 负载均衡
+    - Nginx/LVS
+- 微服务
+    - 服务网关
 
 ## 应用
 - 用户
