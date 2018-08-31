@@ -127,6 +127,8 @@
 - [Phalcon](https://phalconphp.com/zh/)
 - [ThinkPHP](http://www.thinkphp.cn/)
 - [Swoole](https://www.swoole.com/)
+- [Tars](https://github.com/Tencent/Tars)
+- [Swoft](https://www.swoft.org/)
 
 ## 计算机基础
 - 编译原理
