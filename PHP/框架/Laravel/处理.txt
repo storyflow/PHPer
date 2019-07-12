@@ -1,0 +1,30 @@
+## sql
+
+ALTER TABLE `xq_2345`.`xq_banner` 
+ADD COLUMN `label_url` varchar(255) NOT NULL DEFAULT '' COMMENT '角标图片地址' AFTER `image_url`;
+
+
+CREATE TABLE `xq_2345_common`.`xq_task_new_user_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL COMMENT '用户id',
+  `channel` varchar(50) NOT NULL COMMENT '渠道',
+  `app_version` varchar(50) NOT NULL COMMENT '版本号',
+  `user_reg_days` int(11) NOT NULL COMMENT '用户注册天数',
+  `mtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+  `ctime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '添加时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_uid` (`uid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='新手任务完成表';
+
+## 其他处理
+1. 添加后台标签（包含任务描述）
+
+1）获得1篇阅读奖励 xq_toutiao_read
+2）做任务开1个宝箱 xq_timelimit_treasure
+3）首次提现 xq_withdraw
+
+2. 添加相应的任务
+
+3. 增加开关
+星球应用布局开关
+xq_application_layout
