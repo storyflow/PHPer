@@ -15,6 +15,7 @@
   - Kubernetes
     * [Window10使用Minikube快速搭建Kubernetes环境](Architecture/Kubernetes/Window10使用Minikube快速搭建Kubernetes环境.md)
     * [安装](Architecture/Kubernetes/安装.md)
+    * [说明](Architecture/Kubernetes/说明.md)
   - [Micro Services](Architecture/MicroServices/README.md)
     * [1. 服务框架](Architecture/MicroServices/1. 服务框架.md)
     * [3. 服务安全](Architecture/MicroServices/3. 服务安全.md)
@@ -50,7 +51,7 @@
       * [IO](Architecture/Networks/IO编程/IO.md)
       * [IO模型](Architecture/Networks/IO编程/IO模型.md)
     - 进程和线程
-      * [多进程和多线程](Architecture/Networks/进程和线程/多进程和多线程.md)
+      * [多线程和多线程](Architecture/Networks/进程和线程/多线程和多线程.md)
       * [进程切换](Architecture/Networks/进程和线程/进程切换.md)
     * [IO定义](Architecture/Networks/IO定义.md)
     * [IO模型](Architecture/Networks/IO模型.md)
@@ -58,13 +59,23 @@
     * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
     * [多进程共用数据库连接问题](Architecture/Networks/多进程共用数据库连接问题.md)
     * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
+    * [通道 Chan](Architecture/Networks/通道 Chan.md)
   - 分布式
+    * [Map Reduce](Architecture/分布式/MapReduce.md)
+    * [一致性哈希](Architecture/分布式/一致性哈希.md)
     * [分布式事务](Architecture/分布式/分布式事务.md)
+    * [分布式最终一致性](Architecture/分布式/分布式最终一致性.md)
+    * [数据一致性](Architecture/分布式/数据一致性.md)
+  - 异步编程
+    * [基于任务的异步编程](Architecture/异步编程/基于任务的异步编程.md)
   - 架构基础
     * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
     * [可扩展](Architecture/架构基础/可扩展.md)
+    * [架构原则](Architecture/架构基础/架构原则.md)
     * [高可用](Architecture/架构基础/高可用.md)
     * [高性能](Architecture/架构基础/高性能.md)
+  - 网关
+    * [微服务与API网关](Architecture/网关/微服务与API网关.md)
   - [设计模式](Architecture/设计模式/README.md)
     - Notes
       - 工厂
@@ -97,8 +108,6 @@
       * [9. 二叉查找树](Data/DataStructure/数据结构/9. 二叉查找树.md)
     * [1 简介](Data/DataStructure/1 简介.md)
     * [2 时间复杂度](Data/DataStructure/2 时间复杂度.md)
-  - Notes
-    * [数据一致性](Data/Notes/数据一致性.md)
 - Data Base
   - [Cache](DataBase/Cache/README.md)
     * [Memcached介绍](DataBase/Cache/Memcached介绍.md)
@@ -107,6 +116,8 @@
     * [Redis入门](DataBase/Cache/Redis入门.md)
     * [对比](DataBase/Cache/对比.md)
   - My SQL
+    - Note
+      * [MySQL数据库规范](DataBase/MySQL/Note/MySQL数据库规范.md)
     - 基础篇
       * [1. Mysql](DataBase/MySQL/基础篇/1. Mysql.md)
       * [2. 数据库操作](DataBase/MySQL/基础篇/2. 数据库操作.md)
@@ -131,6 +142,7 @@
     * [x3 资料推荐](DataBase/MySQL/x3 资料推荐.md)
   - Redis
     - 进阶
+      * [redis升级](DataBase/Redis/进阶/redis升级.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
     * [1. 简介](DataBase/Redis/1. 简介.md)
@@ -160,8 +172,14 @@
   - x2 常见问题
     * [Cross Domain](FrontEnd/x2 常见问题/Cross-domain.md)
 - Go
+  - Notes
+    * [Go的异常处理 defer, panic, recover](Go/Notes/Go的异常处理 defer, panic, recover.md)
+    * [Println 与 Printf 的区别](Go/Notes/Println 与 Printf 的区别.md)
   * [为什么要学Go](Go/为什么要学Go.md)
 - Notes
+  - [API](Notes/API/API.md)
+    * [API加密方案](Notes/API/API加密方案.md)
+    * [api设计](Notes/API/api设计.md)
   - Business
     * [服务端接口版本问题](Notes/Business/服务端接口版本问题.md)
   - [Code](Notes/Code/README.md)
@@ -183,6 +201,7 @@
   - Issues
     * [Curl](Notes/Issues/Curl.md)
     * [Git](Notes/Issues/Git.md)
+    * [Linux 中 Crontab 定时任务执行时的环境变量问题](Notes/Issues/Linux 中 Crontab 定时任务执行时的环境变量问题.md)
     * [Redis](Notes/Issues/Redis.md)
     * [内网和外网](Notes/Issues/内网和外网.md)
     * [无法常驻内存](Notes/Issues/无法常驻内存.md)
@@ -197,7 +216,7 @@
     * [安装扩展](Notes/Linux/安装扩展.md)
     * [文件权限问题](Notes/Linux/文件权限问题.md)
     * [解析配置](Notes/Linux/解析配置.md)
-  - Nginx
+  - [Nginx](Notes/Nginx/nginx.md)
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
   - 开发
@@ -207,6 +226,8 @@
 - PHP
   - Composer
     * [PSR](PHP/Composer/PSR.md)
+  - Swoole
+    * [swoole协程](PHP/Swoole/swoole协程.md)
   - 不足
     * [无法常驻内存](PHP/不足/无法常驻内存.md)
   - [常见问题](PHP/常见问题/常见问题.md)
@@ -214,6 +235,7 @@
     * [GET与POST的区别](PHP/常见问题/GET与POST的区别.md)
     * [include、include_once、require、require_once的区别](PHP/常见问题/include、include_once、require、require_once的区别.md)
     * [IP地址函数ip2long()返回值为负数问题](PHP/常见问题/IP地址函数ip2long()返回值为负数问题.md)
+    * [JSON](PHP/常见问题/JSON.md)
     * [Nginx和PHP-fpm的关系](PHP/常见问题/Nginx和PHP-fpm的关系.md)
     * [PHP Jit](PHP/常见问题/PHP jit.md)
     * [php 后端实现JWT认证方法](PHP/常见问题/php 后端实现JWT认证方法.md)
@@ -222,6 +244,7 @@
     * [php的四种运行模式](PHP/常见问题/php的四种运行模式.md)
     * [Session 和 Cookie](PHP/常见问题/Session 和 Cookie.md)
     * [事务处理](PHP/常见问题/事务处理.md)
+    * [垃圾回收机制](PHP/常见问题/垃圾回收机制.md)
     * [大文件读取](PHP/常见问题/大文件读取.md)
     * [字符串加密解密](PHP/常见问题/字符串加密解密.md)
     * [常用函数](PHP/常见问题/常用函数.md)
@@ -256,13 +279,15 @@
       * [4. 缓存](PHP/框架/Swoft/4. 缓存.md)
       * [6. 视图](PHP/框架/Swoft/6. 视图.md)
       * [x1. 问题](PHP/框架/Swoft/x1. 问题.md)
+  - 语言参考
+    - 面向对象
+      * [MVC](PHP/语言参考/面向对象/MVC.md)
+      * [ORM](PHP/语言参考/面向对象/ORM.md)
+      * [类的变量](PHP/语言参考/面向对象/类的变量.md)
+    * [命名空间](PHP/语言参考/命名空间.md)
   - [进程](PHP/进程/进程.md)
     * [管道](PHP/进程/管道.md)
     * [进程间通信](PHP/进程/进程间通信.md)
-  - 面向对象
-    * [MVC](PHP/面向对象/MVC.md)
-    * [ORM](PHP/面向对象/ORM.md)
-    * [类的变量](PHP/面向对象/类的变量.md)
   * [参考资料](PHP/参考资料.md)
   * [面试题](PHP/面试题.md)
 - [Resource](Resource/README.md)
@@ -284,5 +309,8 @@
   - [Website](Resource/Website/README.md)
   * [TODO](Resource/TODO.md)
 - Web
+  * [Web基础开发](Web/Web基础开发.md)
+  * [Web测试](Web/Web测试.md)
+  * [多环境测试方案](Web/多环境测试方案.md)
   * [应用框架](Web/应用框架.md)
   * [研发体系](Web/研发体系.md)
