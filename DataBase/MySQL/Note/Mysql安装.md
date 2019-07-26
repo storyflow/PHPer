@@ -8,3 +8,4 @@ $ yum install -y mysql-community-server
 # 启动mysql
 $ systemctl start mysqld
 ```
+
