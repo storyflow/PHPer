@@ -1,4 +1,4 @@
-# 对比
+# Memcached和Redis对比
 
 ### 功能：
 - Memcached仅限于字符串，但Redis是可以提供多种不同数据类型的数据结构服务器。
