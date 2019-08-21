@@ -1,17 +1,6 @@
 # PHP开发知识结构
 
 - Architecture
-  - [Docker](Architecture/Docker/README.md)
-    * [0. 简介](Architecture/Docker/0. 简介.md)
-    * [1. 安装](Architecture/Docker/1. 安装.md)
-    * [2. 基本概念](Architecture/Docker/2. 基本概念.md)
-    * [3. 镜像操作](Architecture/Docker/3. 镜像操作.md)
-    * [4. 容器操作](Architecture/Docker/4. 容器操作.md)
-    * [5. 仓库操作](Architecture/Docker/5. 仓库操作.md)
-    * [6. 数据卷](Architecture/Docker/6. 数据卷.md)
-    * [7. 资源列表](Architecture/Docker/7. 资源列表.md)
-    * [8. 常见问题](Architecture/Docker/8. 常见问题.md)
-    * [9. 应用](Architecture/Docker/9. 应用.md)
   - Kubernetes
     * [Window10使用Minikube快速搭建Kubernetes环境](Architecture/Kubernetes/Window10使用Minikube快速搭建Kubernetes环境.md)
     * [安装](Architecture/Kubernetes/安装.md)
@@ -61,6 +50,7 @@
     * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
     * [通道 Chan](Architecture/Networks/通道 Chan.md)
   - 分布式
+    * [CAP定理](Architecture/分布式/CAP定理.md)
     * [Map Reduce](Architecture/分布式/MapReduce.md)
     * [一致性哈希](Architecture/分布式/一致性哈希.md)
     * [分布式事务](Architecture/分布式/分布式事务.md)
@@ -127,6 +117,7 @@
       * [mysql查询语句怎么做性能分析？](DataBase/MySQL/Note/mysql查询语句怎么做性能分析？.md)
       * [一条SQL查询语句是如何执行的](DataBase/MySQL/Note/一条SQL查询语句是如何执行的.md)
       * [事务](DataBase/MySQL/Note/事务.md)
+      * [什么是关系表](DataBase/MySQL/Note/什么是关系表.md)
       * [如何做数据恢复](DataBase/MySQL/Note/如何做数据恢复.md)
       * [数据库单表由万级变成亿级，怎么处理](DataBase/MySQL/Note/数据库单表由万级变成亿级，怎么处理.md)
       * [数据库锁](DataBase/MySQL/Note/数据库锁.md)
@@ -176,6 +167,19 @@
     * [x1. 常见问题](DataBase/Redis/x1. 常见问题.md)
     * [x2. 参考资料](DataBase/Redis/x2. 参考资料.md)
     * [知识结构](DataBase/Redis/知识结构.md)
+- [Docker](Docker/README.md)
+  - [常见问题](Docker/常见问题/常见问题.md)
+    * [Certificate Signed By Unknown Authority](Docker/常见问题/certificate signed by unknown authority.md)
+    * [No Route To Host](Docker/常见问题/no route to host.md)
+  * [0. 简介](Docker/0. 简介.md)
+  * [1. 安装](Docker/1. 安装.md)
+  * [2. 基本概念](Docker/2. 基本概念.md)
+  * [3. 镜像操作](Docker/3. 镜像操作.md)
+  * [4. 容器操作](Docker/4. 容器操作.md)
+  * [5. 仓库操作](Docker/5. 仓库操作.md)
+  * [6. 数据卷](Docker/6. 数据卷.md)
+  * [7. 资源列表](Docker/7. 资源列表.md)
+  * [8. 应用](Docker/8. 应用.md)
 - [Front End](FrontEnd/README.md)
   - [01 前端工具](FrontEnd/01 前端工具/README.md)
     * [Apidoc](FrontEnd/01 前端工具/Apidoc.md)
@@ -280,6 +284,9 @@
     * [浮点数的精度](PHP/常见问题/浮点数的精度.md)
     * [生成器](PHP/常见问题/生成器.md)
     * [魔术方法](PHP/常见问题/魔术方法.md)
+  - 性能分析
+    * [xhprof的使用](PHP/性能分析/xhprof的使用.md)
+    * [非侵入式监控平台](PHP/性能分析/非侵入式监控平台.md)
   - 教程
     * [xdebug的使用](PHP/教程/xdebug的使用.md)
   - 框架
@@ -307,6 +314,8 @@
       * [4. 缓存](PHP/框架/Swoft/4. 缓存.md)
       * [6. 视图](PHP/框架/Swoft/6. 视图.md)
       * [x1. 问题](PHP/框架/Swoft/x1. 问题.md)
+    - Tars
+      * [安装后台](PHP/框架/tars/安装后台.md)
   - 语言参考
     - 面向对象
       * [MVC](PHP/语言参考/面向对象/MVC.md)
