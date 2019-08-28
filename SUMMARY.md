@@ -2,7 +2,6 @@
 
 - Architecture
   - Kubernetes
-    * [Window10使用Minikube快速搭建Kubernetes环境](Architecture/Kubernetes/Window10使用Minikube快速搭建Kubernetes环境.md)
     * [安装](Architecture/Kubernetes/安装.md)
     * [说明](Architecture/Kubernetes/说明.md)
   - [Micro Services](Architecture/MicroServices/README.md)
@@ -68,13 +67,8 @@
   - 网关
     * [微服务与API网关](Architecture/网关/微服务与API网关.md)
   - [设计模式](Architecture/设计模式/README.md)
-    - Notes
-      - 工厂
-        * [抽象工厂模式和工厂模式的区别？](Architecture/设计模式/Notes/工厂/抽象工厂模式和工厂模式的区别？.md)
-        * [简单工厂、工厂方法、抽象工厂之小结与区别](Architecture/设计模式/Notes/工厂/简单工厂、工厂方法、抽象工厂之小结与区别.md)
-        * [简单工厂模式的升级版](Architecture/设计模式/Notes/工厂/简单工厂模式的升级版.md)
     * [Design Patterns](Architecture/设计模式/DesignPatterns.md)
-    * [参考资料](Architecture/设计模式/参考资料.md)
+    * [适配器模式](Architecture/设计模式/适配器模式.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
     - 排序
@@ -217,6 +211,7 @@
     * [代码要求](Notes/Code/代码要求.md)
     * [代码调试](Notes/Code/代码调试.md)
   - Git
+    * [git blame出现的人员不一致](Notes/Git/git blame出现的人员不一致.md)
     * [Git忽略.gitignore](Notes/Git/Git忽略.gitignore.md)
     * [Git撤销merge合并](Notes/Git/Git撤销merge合并.md)
     * [Git远程分支](Notes/Git/Git远程分支.md)
@@ -257,16 +252,19 @@
 - PHP
   - Composer
     * [PSR](PHP/Composer/PSR.md)
-  - Swoole
-    * [swoole协程](PHP/Swoole/swoole协程.md)
+    * [参数](PHP/Composer/参数.md)
   - 不足
     * [无法常驻内存](PHP/不足/无法常驻内存.md)
+  - 加密
+    * [AES](PHP/加密/AES.md)
+    * [密钥](PHP/加密/密钥.md)
   - [常见问题](PHP/常见问题/常见问题.md)
     * [AOP](PHP/常见问题/AOP.md)
     * [GET与POST的区别](PHP/常见问题/GET与POST的区别.md)
     * [include、include_once、require、require_once的区别](PHP/常见问题/include、include_once、require、require_once的区别.md)
     * [IP地址函数ip2long()返回值为负数问题](PHP/常见问题/IP地址函数ip2long()返回值为负数问题.md)
     * [JSON](PHP/常见问题/JSON.md)
+    * [Nginx 设置 PHP_VALUE 的灵异问题](PHP/常见问题/Nginx 设置 PHP_VALUE 的灵异问题.md)
     * [Nginx和PHP-fpm的关系](PHP/常见问题/Nginx和PHP-fpm的关系.md)
     * [PHP Jit](PHP/常见问题/PHP jit.md)
     * [php 后端实现JWT认证方法](PHP/常见问题/php 后端实现JWT认证方法.md)
@@ -275,6 +273,7 @@
     * [php的四种运行模式](PHP/常见问题/php的四种运行模式.md)
     * [PHP程序如何debug](PHP/常见问题/PHP程序如何debug.md)
     * [Session 和 Cookie](PHP/常见问题/Session 和 Cookie.md)
+    * [xdebug的使用](PHP/常见问题/xdebug的使用.md)
     * [事务处理](PHP/常见问题/事务处理.md)
     * [垃圾回收机制](PHP/常见问题/垃圾回收机制.md)
     * [大文件读取](PHP/常见问题/大文件读取.md)
@@ -285,10 +284,8 @@
     * [生成器](PHP/常见问题/生成器.md)
     * [魔术方法](PHP/常见问题/魔术方法.md)
   - 性能分析
-    * [xhprof的使用](PHP/性能分析/xhprof的使用.md)
+    * [接口性能分析实践](PHP/性能分析/接口性能分析实践.md)
     * [非侵入式监控平台](PHP/性能分析/非侵入式监控平台.md)
-  - 教程
-    * [xdebug的使用](PHP/教程/xdebug的使用.md)
   - 框架
     - [Codeigniter](PHP/框架/Codeigniter/README.md)
       * [Common](PHP/框架/Codeigniter/Common.md)
@@ -314,6 +311,8 @@
       * [4. 缓存](PHP/框架/Swoft/4. 缓存.md)
       * [6. 视图](PHP/框架/Swoft/6. 视图.md)
       * [x1. 问题](PHP/框架/Swoft/x1. 问题.md)
+    - Swoole
+      * [swoole协程](PHP/框架/Swoole/swoole协程.md)
     - Tars
       * [安装后台](PHP/框架/tars/安装后台.md)
   - 语言参考
