@@ -1,6 +1,19 @@
 # PHP开发知识结构
 
 - Architecture
+  - [Docker](Architecture/Docker/README.md)
+    - [常见问题](Architecture/Docker/常见问题/常见问题.md)
+      * [Certificate Signed By Unknown Authority](Architecture/Docker/常见问题/certificate signed by unknown authority.md)
+      * [No Route To Host](Architecture/Docker/常见问题/no route to host.md)
+    * [0. 简介](Architecture/Docker/0. 简介.md)
+    * [1. 安装](Architecture/Docker/1. 安装.md)
+    * [2. 基本概念](Architecture/Docker/2. 基本概念.md)
+    * [3. 镜像操作](Architecture/Docker/3. 镜像操作.md)
+    * [4. 容器操作](Architecture/Docker/4. 容器操作.md)
+    * [5. 仓库操作](Architecture/Docker/5. 仓库操作.md)
+    * [6. 数据卷](Architecture/Docker/6. 数据卷.md)
+    * [7. 资源列表](Architecture/Docker/7. 资源列表.md)
+    * [8. 应用](Architecture/Docker/8. 应用.md)
   - Kubernetes
     * [安装](Architecture/Kubernetes/安装.md)
     * [说明](Architecture/Kubernetes/说明.md)
@@ -22,32 +35,14 @@
     - Kafka
       * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
     - Rabbit Mq
+      - Notes
+        * [存储机制](Architecture/MQ/RabbitMq/Notes/存储机制.md)
+        * [消息持久化](Architecture/MQ/RabbitMq/Notes/消息持久化.md)
+        * [消息确认机制](Architecture/MQ/RabbitMq/Notes/消息确认机制.md)
       * [1. RabbitMq的基础](Architecture/MQ/RabbitMq/1. RabbitMq的基础.md)
       * [2. RabbitMq的概念](Architecture/MQ/RabbitMq/2. RabbitMq的概念.md)
       * [x1. RabbitMQ与Redis队列对比](Architecture/MQ/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
     * [消息队列](Architecture/MQ/消息队列.md)
-  - Networks
-    - HTTP
-      * [1. 互联网协议入门](Architecture/Networks/HTTP/1. 互联网协议入门.md)
-      * [2. HTTP协议入门](Architecture/Networks/HTTP/2. HTTP协议入门.md)
-      * [3. HTTP报文内的HTTP信息](Architecture/Networks/HTTP/3. HTTP报文内的HTTP信息.md)
-      * [4. HTTP状态码](Architecture/Networks/HTTP/4. HTTP状态码.md)
-      * [5. Web服务器](Architecture/Networks/HTTP/5. Web服务器.md)
-      * [6. HTTPS](Architecture/Networks/HTTP/6. HTTPS.md)
-      * [7. 用户身份的认证](Architecture/Networks/HTTP/7. 用户身份的认证.md)
-    - [IO编程](Architecture/Networks/IO编程/IO编程.md)
-      * [IO](Architecture/Networks/IO编程/IO.md)
-      * [IO模型](Architecture/Networks/IO编程/IO模型.md)
-    - 进程和线程
-      * [多线程和多线程](Architecture/Networks/进程和线程/多线程和多线程.md)
-      * [进程切换](Architecture/Networks/进程和线程/进程切换.md)
-    * [IO定义](Architecture/Networks/IO定义.md)
-    * [IO模型](Architecture/Networks/IO模型.md)
-    * [协程](Architecture/Networks/协程.md)
-    * [同步异步、阻塞非阻塞](Architecture/Networks/同步异步、阻塞非阻塞.md)
-    * [多进程共用数据库连接问题](Architecture/Networks/多进程共用数据库连接问题.md)
-    * [进程、线程、协程](Architecture/Networks/进程、线程、协程.md)
-    * [通道 Chan](Architecture/Networks/通道 Chan.md)
   - 分布式
     * [CAP定理](Architecture/分布式/CAP定理.md)
     * [Map Reduce](Architecture/分布式/MapReduce.md)
@@ -59,6 +54,7 @@
     * [基于任务的异步编程](Architecture/异步编程/基于任务的异步编程.md)
   - 架构基础
     * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
+    * [参考资料](Architecture/架构基础/参考资料.md)
     * [可扩展](Architecture/架构基础/可扩展.md)
     * [架构原则](Architecture/架构基础/架构原则.md)
     * [架构设计原则](Architecture/架构基础/架构设计原则.md)
@@ -69,6 +65,31 @@
   - [设计模式](Architecture/设计模式/README.md)
     * [Design Patterns](Architecture/设计模式/DesignPatterns.md)
     * [适配器模式](Architecture/设计模式/适配器模式.md)
+- Base
+  - Networks
+    - HTTP
+      * [1. 互联网协议入门](Base/Networks/HTTP/1. 互联网协议入门.md)
+      * [2. HTTP协议入门](Base/Networks/HTTP/2. HTTP协议入门.md)
+      * [3. HTTP报文内的HTTP信息](Base/Networks/HTTP/3. HTTP报文内的HTTP信息.md)
+      * [4. HTTP状态码](Base/Networks/HTTP/4. HTTP状态码.md)
+      * [5. Web服务器](Base/Networks/HTTP/5. Web服务器.md)
+      * [6. HTTPS](Base/Networks/HTTP/6. HTTPS.md)
+      * [7. 用户身份的认证](Base/Networks/HTTP/7. 用户身份的认证.md)
+    - [IO编程](Base/Networks/IO编程/IO编程.md)
+      * [IO](Base/Networks/IO编程/IO.md)
+      * [IO定义](Base/Networks/IO编程/IO定义.md)
+      * [IO模型](Base/Networks/IO编程/IO模型.md)
+    - Notes
+      * [多进程共用数据库连接问题](Base/Networks/Notes/多进程共用数据库连接问题.md)
+    - 常见问题
+      * [三次握手和四次分手](Base/Networks/常见问题/三次握手和四次分手.md)
+    - 进程和线程
+      * [协程](Base/Networks/进程和线程/协程.md)
+      * [同步异步、阻塞非阻塞](Base/Networks/进程和线程/同步异步、阻塞非阻塞.md)
+      * [多线程和多线程](Base/Networks/进程和线程/多线程和多线程.md)
+      * [进程、线程、协程](Base/Networks/进程和线程/进程、线程、协程.md)
+      * [进程切换](Base/Networks/进程和线程/进程切换.md)
+      * [通道 Chan](Base/Networks/进程和线程/通道 Chan.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
     - 排序
@@ -145,11 +166,16 @@
       * [Redis的同步机制](DataBase/Redis/Notes/Redis的同步机制.md)
       * [Redis的监控](DataBase/Redis/Notes/Redis的监控.md)
       * [Redis缓存数据类型的选择 ](DataBase/Redis/Notes/Redis缓存数据类型的选择 .md)
+      * [redis过期策略和缓存置换策略](DataBase/Redis/Notes/redis过期策略和缓存置换策略.md)
       * [为什么Redis 是单线程却能支撑高并发](DataBase/Redis/Notes/为什么Redis 是单线程却能支撑高并发.md)
       * [为什么要使用Nosql](DataBase/Redis/Notes/为什么要使用Nosql.md)
       * [主从复制](DataBase/Redis/Notes/主从复制.md)
       * [哨兵机制](DataBase/Redis/Notes/哨兵机制.md)
       * [如何应对缓存穿透和缓存雪崩问题？](DataBase/Redis/Notes/如何应对缓存穿透和缓存雪崩问题？.md)
+      * [如何找到最大值对应的key](DataBase/Redis/Notes/如何找到最大值对应的key.md)
+      * [如何查找key](DataBase/Redis/Notes/如何查找key.md)
+      * [如果有大量的key需要设置同一时间过期，一般需要注意什么？](DataBase/Redis/Notes/如果有大量的key需要设置同一时间过期，一般需要注意什么？.md)
+      * [清理集群](DataBase/Redis/Notes/清理集群.md)
       * [缓存特征、介质](DataBase/Redis/Notes/缓存特征、介质.md)
     - 基础知识
       * [1. 简介](DataBase/Redis/基础知识/1. 简介.md)
@@ -158,22 +184,7 @@
       * [redis升级](DataBase/Redis/进阶/redis升级.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
-    * [x1. 常见问题](DataBase/Redis/x1. 常见问题.md)
-    * [x2. 参考资料](DataBase/Redis/x2. 参考资料.md)
-    * [知识结构](DataBase/Redis/知识结构.md)
-- [Docker](Docker/README.md)
-  - [常见问题](Docker/常见问题/常见问题.md)
-    * [Certificate Signed By Unknown Authority](Docker/常见问题/certificate signed by unknown authority.md)
-    * [No Route To Host](Docker/常见问题/no route to host.md)
-  * [0. 简介](Docker/0. 简介.md)
-  * [1. 安装](Docker/1. 安装.md)
-  * [2. 基本概念](Docker/2. 基本概念.md)
-  * [3. 镜像操作](Docker/3. 镜像操作.md)
-  * [4. 容器操作](Docker/4. 容器操作.md)
-  * [5. 仓库操作](Docker/5. 仓库操作.md)
-  * [6. 数据卷](Docker/6. 数据卷.md)
-  * [7. 资源列表](Docker/7. 资源列表.md)
-  * [8. 应用](Docker/8. 应用.md)
+    * [参考资料](DataBase/Redis/参考资料.md)
 - [Front End](FrontEnd/README.md)
   - [01 前端工具](FrontEnd/01 前端工具/README.md)
     * [Apidoc](FrontEnd/01 前端工具/Apidoc.md)
@@ -204,12 +215,10 @@
     * [API加密方案](Notes/API/API加密方案.md)
     * [api设计](Notes/API/api设计.md)
   - Business
+    * [if else 太多](Notes/Business/if else 太多.md)
     * [如何做监控统计](Notes/Business/如何做监控统计.md)
     * [服务端接口版本问题](Notes/Business/服务端接口版本问题.md)
-  - [Code](Notes/Code/README.md)
-    * [代码简洁之道](Notes/Code/代码简洁之道.md)
-    * [代码要求](Notes/Code/代码要求.md)
-    * [代码调试](Notes/Code/代码调试.md)
+    * [规则引擎](Notes/Business/规则引擎.md)
   - Git
     * [git blame出现的人员不一致](Notes/Git/git blame出现的人员不一致.md)
     * [Git忽略.gitignore](Notes/Git/Git忽略.gitignore.md)
@@ -239,25 +248,33 @@
     * [linux压缩和解压缩命令大全](Notes/Linux/linux压缩和解压缩命令大全.md)
     * [Vim批量替换](Notes/Linux/Vim批量替换.md)
     * [命令](Notes/Linux/命令.md)
+    * [回收站](Notes/Linux/回收站.md)
     * [安装扩展](Notes/Linux/安装扩展.md)
     * [文件权限问题](Notes/Linux/文件权限问题.md)
     * [解析配置](Notes/Linux/解析配置.md)
   - [Nginx](Notes/Nginx/nginx.md)
+    * [ERR_CONTENT_LENGTH_MISMATCH解决方法](Notes/Nginx/ERR_CONTENT_LENGTH_MISMATCH解决方法.md)
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
+  - Shell
+    * [Shell中date命令用法](Notes/Shell/Shell中date命令用法.md)
   - 开发
     * [脚本常见问题](Notes/开发/脚本常见问题.md)
-  - 搭建
-    * [Prometheus](Notes/搭建/Prometheus.md)
+  - 监控
+    * [Prometheus](Notes/监控/Prometheus.md)
+  - [编码](Notes/编码/README.md)
+    * [代码简洁之道](Notes/编码/代码简洁之道.md)
+    * [代码要求](Notes/编码/代码要求.md)
+    * [代码调试](Notes/编码/代码调试.md)
 - PHP
   - Composer
     * [PSR](PHP/Composer/PSR.md)
     * [参数](PHP/Composer/参数.md)
+    * [钩子](PHP/Composer/钩子.md)
   - 不足
     * [无法常驻内存](PHP/不足/无法常驻内存.md)
   - 加密
     * [AES](PHP/加密/AES.md)
-    * [密钥](PHP/加密/密钥.md)
   - [常见问题](PHP/常见问题/常见问题.md)
     * [AOP](PHP/常见问题/AOP.md)
     * [GET与POST的区别](PHP/常见问题/GET与POST的区别.md)
@@ -319,9 +336,14 @@
     - 面向对象
       * [MVC](PHP/语言参考/面向对象/MVC.md)
       * [ORM](PHP/语言参考/面向对象/ORM.md)
+      * [多态](PHP/语言参考/面向对象/多态.md)
       * [对象](PHP/语言参考/面向对象/对象.md)
+      * [封装](PHP/语言参考/面向对象/封装.md)
+      * [抽象类和接口](PHP/语言参考/面向对象/抽象类和接口.md)
       * [类的变量](PHP/语言参考/面向对象/类的变量.md)
     * [命名空间](PHP/语言参考/命名空间.md)
+  - 调用链
+    * [跟踪系统](PHP/调用链/跟踪系统.md)
   - [进程](PHP/进程/进程.md)
     * [管道](PHP/进程/管道.md)
     * [进程间通信](PHP/进程/进程间通信.md)
