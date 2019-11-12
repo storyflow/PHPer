@@ -228,21 +228,13 @@
     * [代码回滚](Notes/Git/代码回滚.md)
     * [多版本工作流](Notes/Git/多版本工作流.md)
     * [工作流](Notes/Git/工作流.md)
+    * [常见问题](Notes/Git/常见问题.md)
     * [快速入门Git](Notes/Git/快速入门Git.md)
-  - Gitbook
-    * [Gitbook自动生成SUMMARY](Notes/Gitbook/Gitbook自动生成SUMMARY.md)
   - HTTP
     * [HTTP状态码](Notes/HTTP/HTTP状态码.md)
-  - Issues
-    * [Curl](Notes/Issues/Curl.md)
-    * [Git](Notes/Issues/Git.md)
-    * [Linux 中 Crontab 定时任务执行时的环境变量问题](Notes/Issues/Linux 中 Crontab 定时任务执行时的环境变量问题.md)
-    * [Redis](Notes/Issues/Redis.md)
-    * [内网和外网](Notes/Issues/内网和外网.md)
-    * [无法常驻内存](Notes/Issues/无法常驻内存.md)
-    * [环境搭建常见问题](Notes/Issues/环境搭建常见问题.md)
   - Linux
     * [Apache 和 nginx](Notes/Linux/Apache 和 nginx.md)
+    * [Linux 中 Crontab 定时任务执行时的环境变量问题](Notes/Linux/Linux 中 Crontab 定时任务执行时的环境变量问题.md)
     * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
     * [Linux下执行shell脚本，提示No such file or directory](Notes/Linux/Linux下执行shell脚本，提示No such file or directory.md)
     * [linux压缩和解压缩命令大全](Notes/Linux/linux压缩和解压缩命令大全.md)
@@ -258,14 +250,19 @@
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
   - Shell
     * [Shell中date命令用法](Notes/Shell/Shell中date命令用法.md)
+    * [Untitled](Notes/Shell/Untitled.md)
+  - 其他
+    * [Gitbook自动生成SUMMARY](Notes/其他/Gitbook自动生成SUMMARY.md)
   - 开发
     * [脚本常见问题](Notes/开发/脚本常见问题.md)
   - 监控
     * [Prometheus](Notes/监控/Prometheus.md)
-  - [编码](Notes/编码/README.md)
+  - 编码
     * [代码简洁之道](Notes/编码/代码简洁之道.md)
-    * [代码要求](Notes/编码/代码要求.md)
+    * [代码规范](Notes/编码/代码规范.md)
     * [代码调试](Notes/编码/代码调试.md)
+    * [代码走查](Notes/编码/代码走查.md)
+    * [参考资料](Notes/编码/参考资料.md)
 - PHP
   - Composer
     * [PSR](PHP/Composer/PSR.md)
@@ -273,10 +270,14 @@
     * [钩子](PHP/Composer/钩子.md)
   - 不足
     * [无法常驻内存](PHP/不足/无法常驻内存.md)
+  - 内核
+    * [参考资料](PHP/内核/参考资料.md)
+    * [看源码原则](PHP/内核/看源码原则.md)
   - 加密
     * [AES](PHP/加密/AES.md)
   - [常见问题](PHP/常见问题/常见问题.md)
     * [AOP](PHP/常见问题/AOP.md)
+    * [Curl](PHP/常见问题/Curl.md)
     * [GET与POST的区别](PHP/常见问题/GET与POST的区别.md)
     * [include、include_once、require、require_once的区别](PHP/常见问题/include、include_once、require、require_once的区别.md)
     * [IP地址函数ip2long()返回值为负数问题](PHP/常见问题/IP地址函数ip2long()返回值为负数问题.md)
@@ -292,17 +293,23 @@
     * [Session 和 Cookie](PHP/常见问题/Session 和 Cookie.md)
     * [xdebug的使用](PHP/常见问题/xdebug的使用.md)
     * [事务处理](PHP/常见问题/事务处理.md)
+    * [内网和外网](PHP/常见问题/内网和外网.md)
     * [垃圾回收机制](PHP/常见问题/垃圾回收机制.md)
     * [大文件读取](PHP/常见问题/大文件读取.md)
     * [字符串加密解密](PHP/常见问题/字符串加密解密.md)
     * [常用函数](PHP/常见问题/常用函数.md)
     * [敏感词过滤](PHP/常见问题/敏感词过滤.md)
+    * [无法常驻内存](PHP/常见问题/无法常驻内存.md)
     * [浮点数的精度](PHP/常见问题/浮点数的精度.md)
+    * [环境搭建常见问题](PHP/常见问题/环境搭建常见问题.md)
     * [生成器](PHP/常见问题/生成器.md)
     * [魔术方法](PHP/常见问题/魔术方法.md)
   - 性能分析
+    * [Xhprof](PHP/性能分析/xhprof.md)
     * [接口性能分析实践](PHP/性能分析/接口性能分析实践.md)
     * [非侵入式监控平台](PHP/性能分析/非侵入式监控平台.md)
+  - 扩展
+    * [如何编写一个PHP的C扩展](PHP/扩展/如何编写一个PHP的C扩展.md)
   - 框架
     - [Codeigniter](PHP/框架/Codeigniter/README.md)
       * [Common](PHP/框架/Codeigniter/Common.md)

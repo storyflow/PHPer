@@ -3,11 +3,8 @@
 ## 定义
 它允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。
 
-产生原因：浏览器的“同源策略”
-
 ## 方案
-
-### CORS解决跨域问题
+### Access-Control-Allow-Origin
 ```
 header("Access-Control-Allow-Origin:http://xx.xx.com");
 header("Access-Control-Allow-Headers: x-requested-with");
@@ -22,8 +19,6 @@ header("Access-Control-Allow-Headers: x-requested-with");
 服务器端应当在JSON数据前加上回调函数名，以便完成一个有效的JSONP请求。  
 
 简单说：服务端根据客户端提交的callback的参数，返回一个callback(json)的数据，而客户端将会用script的方式处理返回数据，来对json数据做处理。
-
-缺点：基于JSONP的实现原理,所以JSONP只能是“GET”请求,不能进行较为复杂的POST和其它请求
 
 JSONP的简单实现：
 ```
@@ -43,15 +38,9 @@ echo $callback.'('.json_encode($data).')';//输出
 ```
 
 
-
 ## 常见问题
-
 1. 跨域读不了cookie - 走Token
-  服务端post过去相应的信息 ，然后读取相应的key
-
-2. 手机浏览器拦截非相同一级域名的图片
-
-  解决方案：换成相同一级域名下 or 同步图片
+服务端post过去相应的信息 ，然后读取相应的key
 
 ## 插件： 
 * [jQuery-JSONP](https://github.com/congmo/jquery-jsonp)
