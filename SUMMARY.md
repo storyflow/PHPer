@@ -249,8 +249,10 @@
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
   - Shell
+    * [Gocron处理Docker进程的问题](Notes/Shell/Gocron处理Docker进程的问题.md)
     * [Shell中date命令用法](Notes/Shell/Shell中date命令用法.md)
-    * [Untitled](Notes/Shell/Untitled.md)
+    * [常见问题](Notes/Shell/常见问题.md)
+    * [替换功能](Notes/Shell/替换功能.md)
   - 其他
     * [Gitbook自动生成SUMMARY](Notes/其他/Gitbook自动生成SUMMARY.md)
   - 开发
