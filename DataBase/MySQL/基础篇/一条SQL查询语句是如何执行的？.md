@@ -1,6 +1,6 @@
 
 ## MySQL的逻辑架构
-![MySQL的逻辑架构图](https://cdn-pri.nlark.com/yuque/0/2018/png/103176/1542763053276-bb6f996e-00ce-4d77-9843-ca4f413475e1.png)
+![0d2070e8f84c4801adbfa03bda1f98d9](assets/0d2070e8f84c4801adbfa03bda1f98d9-20200324230453526.png)
 
 ## 连接器
 
@@ -36,8 +36,6 @@ mysql> SHOW STATUS LIKE 'Qcache%';
 ####  查询缓存机制失效的场景
 1. 引用了一些返回值不确定的函数
 2. 一直缓存直到cache size用完，遵循FIFO缓存策略
-
-![查询缓存的优化流程](https://cdn-pri.nlark.com/yuque/0/2018/png/103176/1542764550940-8ea326dd-5b80-4e9d-87d4-97d52104b37f.png)
 
 ## 分析器
 检查是否有语法错误
