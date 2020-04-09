@@ -9,3 +9,4 @@
 * [教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)
 * [PHP设计模式](https://github.com/domnikl/DesignPatternsPHP)
 * [设计模式系列文章](http://www.cnblogs.com/zhenyulu/category/6930.html)
+

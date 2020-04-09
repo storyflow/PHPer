@@ -72,9 +72,9 @@
       * [2. HTTP协议入门](Base/Networks/HTTP/2. HTTP协议入门.md)
       * [3. HTTP报文内的HTTP信息](Base/Networks/HTTP/3. HTTP报文内的HTTP信息.md)
       * [4. HTTP状态码](Base/Networks/HTTP/4. HTTP状态码.md)
-      * [5. Web服务器](Base/Networks/HTTP/5. Web服务器.md)
       * [6. HTTPS](Base/Networks/HTTP/6. HTTPS.md)
       * [7. 用户身份的认证](Base/Networks/HTTP/7. 用户身份的认证.md)
+      * [Untitled](Base/Networks/HTTP/Untitled.md)
     - [IO编程](Base/Networks/IO编程/IO编程.md)
       * [IO](Base/Networks/IO编程/IO.md)
       * [IO定义](Base/Networks/IO编程/IO定义.md)
@@ -90,6 +90,13 @@
       * [进程、线程、协程](Base/Networks/进程和线程/进程、线程、协程.md)
       * [进程切换](Base/Networks/进程和线程/进程切换.md)
       * [通道 Chan](Base/Networks/进程和线程/通道 Chan.md)
+- Business
+  * [1.服务端接口版本问题](Business/1.服务端接口版本问题.md)
+  * [2.一致性问题](Business/2.一致性问题.md)
+  * [3.if else 太多](Business/3.if else 太多.md)
+  * [4.如何做监控统计](Business/4.如何做监控统计.md)
+  * [5.规则引擎](Business/5.规则引擎.md)
+  * [6.滑块验证码](Business/6.滑块验证码.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
     - 排序
@@ -123,20 +130,30 @@
     * [Memcached使用](DataBase/Memcached/Memcached使用.md)
   - Mongo DB
     * [MongoDB入门](DataBase/MongoDB/MongoDB入门.md)
+    * [MongoDB查询](DataBase/MongoDB/MongoDB查询.md)
+    * [MongoDB连接](DataBase/MongoDB/MongoDB连接.md)
+  - My Cat
+    * [Mycat中的概念](DataBase/MyCat/Mycat中的概念.md)
+    * [原理](DataBase/MyCat/原理.md)
   - My SQL
     - Note
       * [count查询为什么会慢](DataBase/MySQL/Note/count查询为什么会慢.md)
       * [MySQL 意外宕机，如何数据恢复](DataBase/MySQL/Note/MySQL 意外宕机，如何数据恢复.md)
       * [Mysql安装](DataBase/MySQL/Note/Mysql安装.md)
+      * [mysql批量删除表名符合条件的表](DataBase/MySQL/Note/mysql批量删除表名符合条件的表.md)
       * [MySQL数据库规范](DataBase/MySQL/Note/MySQL数据库规范.md)
       * [mysql查询语句怎么做性能分析？](DataBase/MySQL/Note/mysql查询语句怎么做性能分析？.md)
+      * [SQL慢查优化方案](DataBase/MySQL/Note/SQL慢查优化方案.md)
+      * [Warning PDO Statementexecute SQLSTATE HY 093 Invalid Parameter Number Number Of Bound Variables Does Not Match Number Of Tokens](DataBase/MySQL/Note/Warning PDOStatementexecute() SQLSTATE[HY093] Invalid parameter number number of bound variables does not match number of tokens.md)
       * [一条SQL查询语句是如何执行的](DataBase/MySQL/Note/一条SQL查询语句是如何执行的.md)
       * [事务](DataBase/MySQL/Note/事务.md)
       * [什么是关系表](DataBase/MySQL/Note/什么是关系表.md)
+      * [删除和添加索引，为什么要先加后删](DataBase/MySQL/Note/删除和添加索引，为什么要先加后删.md)
       * [如何做数据恢复](DataBase/MySQL/Note/如何做数据恢复.md)
+      * [如何进行分库分表](DataBase/MySQL/Note/如何进行分库分表.md)
+      * [如何选择主库和从库](DataBase/MySQL/Note/如何选择主库和从库.md)
       * [数据库单表由万级变成亿级，怎么处理](DataBase/MySQL/Note/数据库单表由万级变成亿级，怎么处理.md)
       * [数据库锁](DataBase/MySQL/Note/数据库锁.md)
-      * [索引](DataBase/MySQL/Note/索引.md)
       * [索引失效的场景](DataBase/MySQL/Note/索引失效的场景.md)
     - 基础篇
       * [1. Mysql](DataBase/MySQL/基础篇/1. Mysql.md)
@@ -146,6 +163,7 @@
       * [5. 索引](DataBase/MySQL/基础篇/5. 索引.md)
       * [6. 事务](DataBase/MySQL/基础篇/6. 事务.md)
       * [x1. 一条SQL查询语句是如何执行的？](DataBase/MySQL/基础篇/x1. 一条SQL查询语句是如何执行的？.md)
+      * [编码](DataBase/MySQL/基础篇/编码.md)
       * [范式](DataBase/MySQL/基础篇/范式.md)
     - 实践篇
       * [1. 事务回滚](DataBase/MySQL/实践篇/1. 事务回滚.md)
@@ -180,6 +198,7 @@
     - 基础知识
       * [1. 简介](DataBase/Redis/基础知识/1. 简介.md)
       * [2. 数据结构](DataBase/Redis/基础知识/2. 数据结构.md)
+      * [配置说明](DataBase/Redis/基础知识/配置说明.md)
     - 进阶
       * [redis升级](DataBase/Redis/进阶/redis升级.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
@@ -205,20 +224,17 @@
     * [博客推荐](FrontEnd/x1 资源/博客推荐.md)
   - x2 常见问题
     * [Cross Domain](FrontEnd/x2 常见问题/Cross-domain.md)
-- Go
-  - Notes
-    * [Go的异常处理 defer, panic, recover](Go/Notes/Go的异常处理 defer, panic, recover.md)
-    * [Println 与 Printf 的区别](Go/Notes/Println 与 Printf 的区别.md)
-  * [为什么要学Go](Go/为什么要学Go.md)
 - Notes
+  - 1、Shell
+    * [Gocron处理Docker进程的问题](Notes/1、Shell/Gocron处理Docker进程的问题.md)
+    * [Shell中date命令用法](Notes/1、Shell/Shell中date命令用法.md)
+    * [shell字符串](Notes/1、Shell/shell字符串.md)
+    * [常用命令](Notes/1、Shell/常用命令.md)
+    * [常见问题](Notes/1、Shell/常见问题.md)
+    * [替换功能](Notes/1、Shell/替换功能.md)
   - [API](Notes/API/API.md)
     * [API加密方案](Notes/API/API加密方案.md)
     * [api设计](Notes/API/api设计.md)
-  - Business
-    * [if else 太多](Notes/Business/if else 太多.md)
-    * [如何做监控统计](Notes/Business/如何做监控统计.md)
-    * [服务端接口版本问题](Notes/Business/服务端接口版本问题.md)
-    * [规则引擎](Notes/Business/规则引擎.md)
   - Git
     * [git blame出现的人员不一致](Notes/Git/git blame出现的人员不一致.md)
     * [Git忽略.gitignore](Notes/Git/Git忽略.gitignore.md)
@@ -231,6 +247,7 @@
     * [常见问题](Notes/Git/常见问题.md)
     * [快速入门Git](Notes/Git/快速入门Git.md)
   - HTTP
+    * [499问题处理](Notes/HTTP/499问题处理.md)
     * [HTTP状态码](Notes/HTTP/HTTP状态码.md)
   - Linux
     * [Apache 和 nginx](Notes/Linux/Apache 和 nginx.md)
@@ -238,6 +255,7 @@
     * [Linux 防止rm误删文件，将rm配置成mv到.trash ](Notes/Linux/Linux 防止rm误删文件，将rm配置成mv到.trash .md)
     * [Linux下执行shell脚本，提示No such file or directory](Notes/Linux/Linux下执行shell脚本，提示No such file or directory.md)
     * [linux压缩和解压缩命令大全](Notes/Linux/linux压缩和解压缩命令大全.md)
+    * [Untitled](Notes/Linux/Untitled.md)
     * [Vim批量替换](Notes/Linux/Vim批量替换.md)
     * [命令](Notes/Linux/命令.md)
     * [回收站](Notes/Linux/回收站.md)
@@ -248,116 +266,131 @@
     * [ERR_CONTENT_LENGTH_MISMATCH解决方法](Notes/Nginx/ERR_CONTENT_LENGTH_MISMATCH解决方法.md)
     * [Nginx 和 Apache 各有什么优缺点？](Notes/Nginx/Nginx 和 Apache 各有什么优缺点？.md)
     * [windows下安装LNMP](Notes/Nginx/windows下安装LNMP.md)
-  - Shell
-    * [Gocron处理Docker进程的问题](Notes/Shell/Gocron处理Docker进程的问题.md)
-    * [Shell中date命令用法](Notes/Shell/Shell中date命令用法.md)
-    * [常见问题](Notes/Shell/常见问题.md)
-    * [替换功能](Notes/Shell/替换功能.md)
   - 其他
     * [Gitbook自动生成SUMMARY](Notes/其他/Gitbook自动生成SUMMARY.md)
   - 开发
     * [脚本常见问题](Notes/开发/脚本常见问题.md)
+  - 开发流程
+    * [持续集成](Notes/开发流程/持续集成.md)
   - 监控
     * [Prometheus](Notes/监控/Prometheus.md)
   - 编码
     * [代码简洁之道](Notes/编码/代码简洁之道.md)
     * [代码规范](Notes/编码/代码规范.md)
     * [代码调试](Notes/编码/代码调试.md)
+    * [代码质量](Notes/编码/代码质量.md)
     * [代码走查](Notes/编码/代码走查.md)
     * [参考资料](Notes/编码/参考资料.md)
 - PHP
-  - Composer
-    * [PSR](PHP/Composer/PSR.md)
-    * [参数](PHP/Composer/参数.md)
-    * [钩子](PHP/Composer/钩子.md)
-  - 不足
-    * [无法常驻内存](PHP/不足/无法常驻内存.md)
-  - 内核
-    * [参考资料](PHP/内核/参考资料.md)
-    * [看源码原则](PHP/内核/看源码原则.md)
-  - 加密
-    * [AES](PHP/加密/AES.md)
-  - [常见问题](PHP/常见问题/常见问题.md)
-    * [AOP](PHP/常见问题/AOP.md)
-    * [Curl](PHP/常见问题/Curl.md)
-    * [GET与POST的区别](PHP/常见问题/GET与POST的区别.md)
-    * [include、include_once、require、require_once的区别](PHP/常见问题/include、include_once、require、require_once的区别.md)
-    * [IP地址函数ip2long()返回值为负数问题](PHP/常见问题/IP地址函数ip2long()返回值为负数问题.md)
-    * [JSON](PHP/常见问题/JSON.md)
-    * [Nginx 设置 PHP_VALUE 的灵异问题](PHP/常见问题/Nginx 设置 PHP_VALUE 的灵异问题.md)
-    * [Nginx和PHP-fpm的关系](PHP/常见问题/Nginx和PHP-fpm的关系.md)
-    * [PHP Jit](PHP/常见问题/PHP jit.md)
-    * [php 后端实现JWT认证方法](PHP/常见问题/php 后端实现JWT认证方法.md)
-    * [PHP升级可能导致的坑](PHP/常见问题/PHP升级可能导致的坑.md)
-    * [php数组](PHP/常见问题/php数组.md)
-    * [php的四种运行模式](PHP/常见问题/php的四种运行模式.md)
-    * [PHP程序如何debug](PHP/常见问题/PHP程序如何debug.md)
-    * [Session 和 Cookie](PHP/常见问题/Session 和 Cookie.md)
-    * [xdebug的使用](PHP/常见问题/xdebug的使用.md)
-    * [事务处理](PHP/常见问题/事务处理.md)
-    * [内网和外网](PHP/常见问题/内网和外网.md)
-    * [垃圾回收机制](PHP/常见问题/垃圾回收机制.md)
-    * [大文件读取](PHP/常见问题/大文件读取.md)
-    * [字符串加密解密](PHP/常见问题/字符串加密解密.md)
-    * [常用函数](PHP/常见问题/常用函数.md)
-    * [敏感词过滤](PHP/常见问题/敏感词过滤.md)
-    * [无法常驻内存](PHP/常见问题/无法常驻内存.md)
-    * [浮点数的精度](PHP/常见问题/浮点数的精度.md)
-    * [环境搭建常见问题](PHP/常见问题/环境搭建常见问题.md)
-    * [生成器](PHP/常见问题/生成器.md)
-    * [魔术方法](PHP/常见问题/魔术方法.md)
-  - 性能分析
-    * [Xhprof](PHP/性能分析/xhprof.md)
-    * [接口性能分析实践](PHP/性能分析/接口性能分析实践.md)
-    * [非侵入式监控平台](PHP/性能分析/非侵入式监控平台.md)
-  - 扩展
-    * [如何编写一个PHP的C扩展](PHP/扩展/如何编写一个PHP的C扩展.md)
-  - 框架
-    - [Codeigniter](PHP/框架/Codeigniter/README.md)
-      * [Common](PHP/框架/Codeigniter/Common.md)
-      * [MVC](PHP/框架/Codeigniter/MVC.md)
-      * [ORM的接口](PHP/框架/Codeigniter/ORM的接口.md)
-      * [安全性](PHP/框架/Codeigniter/安全性.md)
-      * [缓存机制](PHP/框架/Codeigniter/缓存机制.md)
-      * [路由](PHP/框架/Codeigniter/路由.md)
-      * [配置管理](PHP/框架/Codeigniter/配置管理.md)
-      * [钩子](PHP/框架/Codeigniter/钩子.md)
-    - Laravel
-      * [介绍](PHP/框架/Laravel/介绍.md)
-    - Laravel Admin
-      * [介绍](PHP/框架/Laravel-admin/介绍.md)
-    - [Swoft](PHP/框架/Swoft/README.md)
-      - [数据库操作](PHP/框架/Swoft/数据库操作/数据库操作.md)
-        * [Dao](PHP/框架/Swoft/数据库操作/Dao.md)
-        * [x0 学习资料](PHP/框架/Swoft/数据库操作/x0 学习资料.md)
-      * [0. 安装](PHP/框架/Swoft/0. 安装.md)
-      * [1. 目录结构](PHP/框架/Swoft/1. 目录结构.md)
-      * [2. 生命周期](PHP/框架/Swoft/2. 生命周期.md)
-      * [3. HTTP服务](PHP/框架/Swoft/3. HTTP服务.md)
-      * [4. 缓存](PHP/框架/Swoft/4. 缓存.md)
-      * [6. 视图](PHP/框架/Swoft/6. 视图.md)
-      * [x1. 问题](PHP/框架/Swoft/x1. 问题.md)
-    - Swoole
-      * [swoole协程](PHP/框架/Swoole/swoole协程.md)
-    - Tars
-      * [安装后台](PHP/框架/tars/安装后台.md)
-  - 语言参考
+  - 1.语言参考
     - 面向对象
-      * [MVC](PHP/语言参考/面向对象/MVC.md)
-      * [ORM](PHP/语言参考/面向对象/ORM.md)
-      * [多态](PHP/语言参考/面向对象/多态.md)
-      * [对象](PHP/语言参考/面向对象/对象.md)
-      * [封装](PHP/语言参考/面向对象/封装.md)
-      * [抽象类和接口](PHP/语言参考/面向对象/抽象类和接口.md)
-      * [类的变量](PHP/语言参考/面向对象/类的变量.md)
-    * [命名空间](PHP/语言参考/命名空间.md)
-  - 调用链
-    * [跟踪系统](PHP/调用链/跟踪系统.md)
-  - [进程](PHP/进程/进程.md)
-    * [管道](PHP/进程/管道.md)
-    * [进程间通信](PHP/进程/进程间通信.md)
-  * [参考资料](PHP/参考资料.md)
-  * [面试题](PHP/面试题.md)
+      * [MVC](PHP/1.语言参考/面向对象/MVC.md)
+      * [ORM](PHP/1.语言参考/面向对象/ORM.md)
+      * [多态](PHP/1.语言参考/面向对象/多态.md)
+      * [对象](PHP/1.语言参考/面向对象/对象.md)
+      * [封装](PHP/1.语言参考/面向对象/封装.md)
+      * [抽象类和接口](PHP/1.语言参考/面向对象/抽象类和接口.md)
+      * [类的变量](PHP/1.语言参考/面向对象/类的变量.md)
+    * [命名空间](PHP/1.语言参考/命名空间.md)
+  - 2.编码
+    * [Sonar Qube](PHP/2.编码/SonarQube.md)
+    * [Validate](PHP/2.编码/Validate.md)
+    * [代码分析](PHP/2.编码/代码分析.md)
+    * [常用脚本](PHP/2.编码/常用脚本.md)
+  - 3.框架
+    - [Codeigniter](PHP/3.框架/Codeigniter/README.md)
+      * [Common](PHP/3.框架/Codeigniter/Common.md)
+      * [MVC](PHP/3.框架/Codeigniter/MVC.md)
+      * [ORM的接口](PHP/3.框架/Codeigniter/ORM的接口.md)
+      * [安全性](PHP/3.框架/Codeigniter/安全性.md)
+      * [缓存机制](PHP/3.框架/Codeigniter/缓存机制.md)
+      * [路由](PHP/3.框架/Codeigniter/路由.md)
+      * [配置管理](PHP/3.框架/Codeigniter/配置管理.md)
+      * [钩子](PHP/3.框架/Codeigniter/钩子.md)
+    - Laravel
+      * [介绍](PHP/3.框架/Laravel/介绍.md)
+    - Laravel Admin
+      * [介绍](PHP/3.框架/Laravel-admin/介绍.md)
+    - Slim
+      * [如何编写Cron脚本](PHP/3.框架/Slim/如何编写Cron脚本.md)
+    - [Swoft](PHP/3.框架/Swoft/README.md)
+      - [数据库操作](PHP/3.框架/Swoft/数据库操作/数据库操作.md)
+        * [Dao](PHP/3.框架/Swoft/数据库操作/Dao.md)
+        * [x0 学习资料](PHP/3.框架/Swoft/数据库操作/x0 学习资料.md)
+      * [0. 安装](PHP/3.框架/Swoft/0. 安装.md)
+      * [1. 目录结构](PHP/3.框架/Swoft/1. 目录结构.md)
+      * [2. 生命周期](PHP/3.框架/Swoft/2. 生命周期.md)
+      * [3. HTTP服务](PHP/3.框架/Swoft/3. HTTP服务.md)
+      * [4. 缓存](PHP/3.框架/Swoft/4. 缓存.md)
+      * [6. 视图](PHP/3.框架/Swoft/6. 视图.md)
+      * [x1. 问题](PHP/3.框架/Swoft/x1. 问题.md)
+    - Swoole
+      * [swoole协程](PHP/3.框架/Swoole/swoole协程.md)
+    - Tars
+      * [安装后台](PHP/3.框架/tars/安装后台.md)
+  - 4.进阶
+    - Composer
+      * [PSR](PHP/4.进阶/Composer/PSR.md)
+      * [参数](PHP/4.进阶/Composer/参数.md)
+      * [类加载优化](PHP/4.进阶/Composer/类加载优化.md)
+      * [钩子](PHP/4.进阶/Composer/钩子.md)
+    - 内核
+      * [参考资料](PHP/4.进阶/内核/参考资料.md)
+      * [看源码原则](PHP/4.进阶/内核/看源码原则.md)
+    - 加密
+      * [AES](PHP/4.进阶/加密/AES.md)
+    - 扩展
+      * [如何编写一个PHP的C扩展](PHP/4.进阶/扩展/如何编写一个PHP的C扩展.md)
+    - [进程](PHP/4.进阶/进程/进程.md)
+      * [管道](PHP/4.进阶/进程/管道.md)
+      * [进程间通信](PHP/4.进阶/进程/进程间通信.md)
+  - 5.性能
+    - Notes
+      * [Opcache 和 APCu的关系](PHP/5.性能/Notes/Opcache 和 APCu的关系.md)
+    - 性能分析
+      * [Xhprof](PHP/5.性能/性能分析/xhprof.md)
+      * [接口性能分析实践](PHP/5.性能/性能分析/接口性能分析实践.md)
+      * [非侵入式监控平台](PHP/5.性能/性能分析/非侵入式监控平台.md)
+    - 调用链
+      * [跟踪系统](PHP/5.性能/调用链/跟踪系统.md)
+    * [APCU](PHP/5.性能/APCU.md)
+    * [并发和异步](PHP/5.性能/并发和异步.md)
+  - 6.常见问题
+    * [AOP](PHP/6.常见问题/AOP.md)
+    * [Curl](PHP/6.常见问题/Curl.md)
+    * [GET与POST的区别](PHP/6.常见问题/GET与POST的区别.md)
+    * [include、include_once、require、require_once的区别](PHP/6.常见问题/include、include_once、require、require_once的区别.md)
+    * [IP地址函数ip2long()返回值为负数问题](PHP/6.常见问题/IP地址函数ip2long()返回值为负数问题.md)
+    * [JSON](PHP/6.常见问题/JSON.md)
+    * [JSON解密的问题](PHP/6.常见问题/JSON解密的问题.md)
+    * [Nginx 设置 PHP_VALUE 的灵异问题](PHP/6.常见问题/Nginx 设置 PHP_VALUE 的灵异问题.md)
+    * [Nginx和PHP-fpm的关系](PHP/6.常见问题/Nginx和PHP-fpm的关系.md)
+    * [PHP Jit](PHP/6.常见问题/PHP jit.md)
+    * [php 后端实现JWT认证方法](PHP/6.常见问题/php 后端实现JWT认证方法.md)
+    * [PHP升级可能导致的坑](PHP/6.常见问题/PHP升级可能导致的坑.md)
+    * [php数组](PHP/6.常见问题/php数组.md)
+    * [php的四种运行模式](PHP/6.常见问题/php的四种运行模式.md)
+    * [PHP程序如何debug](PHP/6.常见问题/PHP程序如何debug.md)
+    * [Session 和 Cookie](PHP/6.常见问题/Session 和 Cookie.md)
+    * [xdebug的使用](PHP/6.常见问题/xdebug的使用.md)
+    * [事务处理](PHP/6.常见问题/事务处理.md)
+    * [内网和外网](PHP/6.常见问题/内网和外网.md)
+    * [垃圾回收机制](PHP/6.常见问题/垃圾回收机制.md)
+    * [大文件读取](PHP/6.常见问题/大文件读取.md)
+    * [字符串加密解密](PHP/6.常见问题/字符串加密解密.md)
+    * [常用函数](PHP/6.常见问题/常用函数.md)
+    * [常见问题](PHP/6.常见问题/常见问题.md)
+    * [敏感词过滤](PHP/6.常见问题/敏感词过滤.md)
+    * [无法常驻内存](PHP/6.常见问题/无法常驻内存.md)
+    * [浮点数的精度](PHP/6.常见问题/浮点数的精度.md)
+    * [环境搭建常见问题](PHP/6.常见问题/环境搭建常见问题.md)
+    * [生成器](PHP/6.常见问题/生成器.md)
+    * [魔术方法](PHP/6.常见问题/魔术方法.md)
+  - 7.不足
+    * [无法常驻内存](PHP/7.不足/无法常驻内存.md)
+  - 8.面试题
+    * [参考资料](PHP/8.面试题/参考资料.md)
+    * [面试题](PHP/8.面试题/面试题.md)
 - [Resource](Resource/README.md)
   - Github
     * [Github项目推荐](Resource/Github/Github项目推荐.md)
@@ -376,9 +409,14 @@
     * [流程图](Resource/Tools/流程图.md)
   - [Website](Resource/Website/README.md)
   * [TODO](Resource/TODO.md)
+- Team
+  - 研发效能
+    * [定义](Team/研发效能/定义.md)
+    * [度量](Team/研发效能/度量.md)
+    * [持续开发](Team/研发效能/持续开发.md)
+  * [研发体系](Team/研发体系.md)
 - Web
   * [Web基础开发](Web/Web基础开发.md)
   * [Web测试](Web/Web测试.md)
   * [多环境测试方案](Web/多环境测试方案.md)
   * [应用框架](Web/应用框架.md)
-  * [研发体系](Web/研发体系.md)
