@@ -1,0 +1,2 @@
+利用ReflectionClass
+getDocComment来解析注释

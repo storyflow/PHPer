@@ -1,36 +1,8 @@
 # PHP开发知识结构
 
 - Architecture
-  - [Docker](Architecture/Docker/README.md)
-    - [常见问题](Architecture/Docker/常见问题/常见问题.md)
-      * [Certificate Signed By Unknown Authority](Architecture/Docker/常见问题/certificate signed by unknown authority.md)
-      * [No Route To Host](Architecture/Docker/常见问题/no route to host.md)
-    * [0. 简介](Architecture/Docker/0. 简介.md)
-    * [1. 安装](Architecture/Docker/1. 安装.md)
-    * [2. 基本概念](Architecture/Docker/2. 基本概念.md)
-    * [3. 镜像操作](Architecture/Docker/3. 镜像操作.md)
-    * [4. 容器操作](Architecture/Docker/4. 容器操作.md)
-    * [5. 仓库操作](Architecture/Docker/5. 仓库操作.md)
-    * [6. 数据卷](Architecture/Docker/6. 数据卷.md)
-    * [7. 资源列表](Architecture/Docker/7. 资源列表.md)
-    * [8. 应用](Architecture/Docker/8. 应用.md)
-  - Kubernetes
-    * [安装](Architecture/Kubernetes/安装.md)
-    * [说明](Architecture/Kubernetes/说明.md)
-  - [Micro Services](Architecture/MicroServices/README.md)
-    * [1. 服务框架](Architecture/MicroServices/1. 服务框架.md)
-    * [3. 服务安全](Architecture/MicroServices/3. 服务安全.md)
-    * [4. 后台服务](Architecture/MicroServices/4. 后台服务.md)
-    * [5. 服务容错](Architecture/MicroServices/5. 服务容错.md)
-    * [6. 服务监控](Architecture/MicroServices/6. 服务监控.md)
-    * [7. 服务部署平台](Architecture/MicroServices/7. 服务部署平台.md)
-    * [8. 服务化](Architecture/MicroServices/8. 服务化.md)
-    * [HTTP](Architecture/MicroServices/HTTP.md)
-    * [RPC](Architecture/MicroServices/RPC.md)
-    * [x1. API网关](Architecture/MicroServices/x1. API网关.md)
-    * [x2. 服务发现](Architecture/MicroServices/x2. 服务发现.md)
-    * [x3 监控](Architecture/MicroServices/x3 监控.md)
-    * [参考资料](Architecture/MicroServices/参考资料.md)
+  - DDD
+    * [1.基础](Architecture/DDD/1.基础.md)
   - MQ
     - Kafka
       * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
@@ -39,6 +11,7 @@
         * [存储机制](Architecture/MQ/RabbitMq/Notes/存储机制.md)
         * [消息持久化](Architecture/MQ/RabbitMq/Notes/消息持久化.md)
         * [消息确认机制](Architecture/MQ/RabbitMq/Notes/消息确认机制.md)
+        * [错误问题处理](Architecture/MQ/RabbitMq/Notes/错误问题处理.md)
       * [1. RabbitMq的基础](Architecture/MQ/RabbitMq/1. RabbitMq的基础.md)
       * [2. RabbitMq的概念](Architecture/MQ/RabbitMq/2. RabbitMq的概念.md)
       * [x1. RabbitMQ与Redis队列对比](Architecture/MQ/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
@@ -49,6 +22,8 @@
     * [一致性哈希](Architecture/分布式/一致性哈希.md)
     * [分布式事务](Architecture/分布式/分布式事务.md)
     * [分布式最终一致性](Architecture/分布式/分布式最终一致性.md)
+    * [分布式系统原理以及常用解决方案](Architecture/分布式/分布式系统原理以及常用解决方案.md)
+    * [多线程环境解决方案](Architecture/分布式/多线程环境解决方案.md)
     * [数据一致性](Architecture/分布式/数据一致性.md)
   - 异步编程
     * [基于任务的异步编程](Architecture/异步编程/基于任务的异步编程.md)
@@ -62,9 +37,6 @@
     * [高性能](Architecture/架构基础/高性能.md)
   - 网关
     * [微服务与API网关](Architecture/网关/微服务与API网关.md)
-  - [设计模式](Architecture/设计模式/README.md)
-    * [Design Patterns](Architecture/设计模式/DesignPatterns.md)
-    * [适配器模式](Architecture/设计模式/适配器模式.md)
 - Base
   - Networks
     - HTTP
@@ -90,6 +62,21 @@
       * [进程、线程、协程](Base/Networks/进程和线程/进程、线程、协程.md)
       * [进程切换](Base/Networks/进程和线程/进程切换.md)
       * [通道 Chan](Base/Networks/进程和线程/通道 Chan.md)
+  - OOAD
+    - 面向对象
+      * [MVC](Base/OOAD/面向对象/MVC.md)
+      * [ORM](Base/OOAD/面向对象/ORM.md)
+      * [依赖注入](Base/OOAD/面向对象/依赖注入.md)
+      * [多态](Base/OOAD/面向对象/多态.md)
+      * [对象](Base/OOAD/面向对象/对象.md)
+      * [封装](Base/OOAD/面向对象/封装.md)
+      * [抽象类和接口](Base/OOAD/面向对象/抽象类和接口.md)
+      * [控制反转](Base/OOAD/面向对象/控制反转.md)
+      * [类的变量](Base/OOAD/面向对象/类的变量.md)
+  - 性能
+    * [1.缓存](Base/性能/1.缓存.md)
+  - 架构
+    * [1.如何保证缓存与数据双写一致性](Base/架构/1.如何保证缓存与数据双写一致性.md)
 - Business
   * [1.服务端接口版本问题](Business/1.服务端接口版本问题.md)
   * [2.一致性问题](Business/2.一致性问题.md)
@@ -97,6 +84,40 @@
   * [4.如何做监控统计](Business/4.如何做监控统计.md)
   * [5.规则引擎](Business/5.规则引擎.md)
   * [6.滑块验证码](Business/6.滑块验证码.md)
+  * [7.大规模上报一致性问题](Business/7.大规模上报一致性问题.md)
+- Cloud
+  - [Docker](Cloud/Docker/README.md)
+    - [常见问题](Cloud/Docker/常见问题/常见问题.md)
+      * [Certificate Signed By Unknown Authority](Cloud/Docker/常见问题/certificate signed by unknown authority.md)
+      * [No Route To Host](Cloud/Docker/常见问题/no route to host.md)
+    * [0. 简介](Cloud/Docker/0. 简介.md)
+    * [1. 安装](Cloud/Docker/1. 安装.md)
+    * [2. 基本概念](Cloud/Docker/2. 基本概念.md)
+    * [3. 镜像操作](Cloud/Docker/3. 镜像操作.md)
+    * [4. 容器操作](Cloud/Docker/4. 容器操作.md)
+    * [5. 仓库操作](Cloud/Docker/5. 仓库操作.md)
+    * [6. 数据卷](Cloud/Docker/6. 数据卷.md)
+    * [7. 资源列表](Cloud/Docker/7. 资源列表.md)
+    * [8. 应用](Cloud/Docker/8. 应用.md)
+  - Kubernetes
+    * [基础知识](Cloud/Kubernetes/基础知识.md)
+    * [安装](Cloud/Kubernetes/安装.md)
+    * [说明](Cloud/Kubernetes/说明.md)
+  - [Micro Services](Cloud/MicroServices/README.md)
+    * [1. 服务框架](Cloud/MicroServices/1. 服务框架.md)
+    * [3. 服务安全](Cloud/MicroServices/3. 服务安全.md)
+    * [4. 后台服务](Cloud/MicroServices/4. 后台服务.md)
+    * [5. 服务容错](Cloud/MicroServices/5. 服务容错.md)
+    * [6. 服务监控](Cloud/MicroServices/6. 服务监控.md)
+    * [7. 服务部署平台](Cloud/MicroServices/7. 服务部署平台.md)
+    * [8. 服务化](Cloud/MicroServices/8. 服务化.md)
+    * [HTTP](Cloud/MicroServices/HTTP.md)
+    * [RPC](Cloud/MicroServices/RPC.md)
+    * [x1. API网关](Cloud/MicroServices/x1. API网关.md)
+    * [x2. 服务发现](Cloud/MicroServices/x2. 服务发现.md)
+    * [x3 监控](Cloud/MicroServices/x3 监控.md)
+    * [参考资料](Cloud/MicroServices/参考资料.md)
+  - [云存储](Cloud/云存储/云存储.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
     - 排序
@@ -143,6 +164,7 @@
       * [mysql批量删除表名符合条件的表](DataBase/MySQL/Note/mysql批量删除表名符合条件的表.md)
       * [MySQL数据库规范](DataBase/MySQL/Note/MySQL数据库规范.md)
       * [mysql查询语句怎么做性能分析？](DataBase/MySQL/Note/mysql查询语句怎么做性能分析？.md)
+      * [Pt Online Schema Change](DataBase/MySQL/Note/pt-online-schema-change.md)
       * [SQL慢查优化方案](DataBase/MySQL/Note/SQL慢查优化方案.md)
       * [Warning PDO Statementexecute SQLSTATE HY 093 Invalid Parameter Number Number Of Bound Variables Does Not Match Number Of Tokens](DataBase/MySQL/Note/Warning PDOStatementexecute() SQLSTATE[HY093] Invalid parameter number number of bound variables does not match number of tokens.md)
       * [一条SQL查询语句是如何执行的](DataBase/MySQL/Note/一条SQL查询语句是如何执行的.md)
@@ -178,7 +200,6 @@
   - Redis
     - Notes
       * [Redis 字典遍历](DataBase/Redis/Notes/Redis 字典遍历.md)
-      * [Redis分布式锁](DataBase/Redis/Notes/Redis分布式锁.md)
       * [Redis如何做持久化的](DataBase/Redis/Notes/Redis如何做持久化的.md)
       * [redis有哪些危险的命令？怎么避免](DataBase/Redis/Notes/redis有哪些危险的命令？怎么避免.md)
       * [Redis的同步机制](DataBase/Redis/Notes/Redis的同步机制.md)
@@ -187,20 +208,25 @@
       * [redis过期策略和缓存置换策略](DataBase/Redis/Notes/redis过期策略和缓存置换策略.md)
       * [为什么Redis 是单线程却能支撑高并发](DataBase/Redis/Notes/为什么Redis 是单线程却能支撑高并发.md)
       * [为什么要使用Nosql](DataBase/Redis/Notes/为什么要使用Nosql.md)
-      * [主从复制](DataBase/Redis/Notes/主从复制.md)
-      * [哨兵机制](DataBase/Redis/Notes/哨兵机制.md)
       * [如何应对缓存穿透和缓存雪崩问题？](DataBase/Redis/Notes/如何应对缓存穿透和缓存雪崩问题？.md)
       * [如何找到最大值对应的key](DataBase/Redis/Notes/如何找到最大值对应的key.md)
       * [如何查找key](DataBase/Redis/Notes/如何查找key.md)
       * [如果有大量的key需要设置同一时间过期，一般需要注意什么？](DataBase/Redis/Notes/如果有大量的key需要设置同一时间过期，一般需要注意什么？.md)
-      * [清理集群](DataBase/Redis/Notes/清理集群.md)
       * [缓存特征、介质](DataBase/Redis/Notes/缓存特征、介质.md)
+    - [使用场景](DataBase/Redis/使用场景/使用场景.md)
+    - 分布式
+      * [Redis分布式锁](DataBase/Redis/分布式/Redis分布式锁.md)
+      * [主从复制](DataBase/Redis/分布式/主从复制.md)
+      * [哨兵机制](DataBase/Redis/分布式/哨兵机制.md)
+      * [清理集群](DataBase/Redis/分布式/清理集群.md)
+      * [集群](DataBase/Redis/分布式/集群.md)
     - 基础知识
       * [1. 简介](DataBase/Redis/基础知识/1. 简介.md)
       * [2. 数据结构](DataBase/Redis/基础知识/2. 数据结构.md)
       * [配置说明](DataBase/Redis/基础知识/配置说明.md)
     - 进阶
       * [redis升级](DataBase/Redis/进阶/redis升级.md)
+      * [优化方案](DataBase/Redis/进阶/优化方案.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
     * [参考资料](DataBase/Redis/参考资料.md)
@@ -225,13 +251,12 @@
   - x2 常见问题
     * [Cross Domain](FrontEnd/x2 常见问题/Cross-domain.md)
 - Notes
-  - 1、Shell
-    * [Gocron处理Docker进程的问题](Notes/1、Shell/Gocron处理Docker进程的问题.md)
-    * [Shell中date命令用法](Notes/1、Shell/Shell中date命令用法.md)
-    * [shell字符串](Notes/1、Shell/shell字符串.md)
-    * [常用命令](Notes/1、Shell/常用命令.md)
-    * [常见问题](Notes/1、Shell/常见问题.md)
-    * [替换功能](Notes/1、Shell/替换功能.md)
+  - 1.Shell
+    * [Gocron处理Docker进程的问题](Notes/1.Shell/Gocron处理Docker进程的问题.md)
+    * [Shell中date命令用法](Notes/1.Shell/Shell中date命令用法.md)
+    * [shell字符串](Notes/1.Shell/shell字符串.md)
+    * [常用命令](Notes/1.Shell/常用命令.md)
+    * [替换功能](Notes/1.Shell/替换功能.md)
   - [API](Notes/API/API.md)
     * [API加密方案](Notes/API/API加密方案.md)
     * [api设计](Notes/API/api设计.md)
@@ -282,21 +307,18 @@
     * [代码走查](Notes/编码/代码走查.md)
     * [参考资料](Notes/编码/参考资料.md)
 - PHP
+  - 0.原理
+    * [php的四种运行模式](PHP/0.原理/php的四种运行模式.md)
   - 1.语言参考
-    - 面向对象
-      * [MVC](PHP/1.语言参考/面向对象/MVC.md)
-      * [ORM](PHP/1.语言参考/面向对象/ORM.md)
-      * [多态](PHP/1.语言参考/面向对象/多态.md)
-      * [对象](PHP/1.语言参考/面向对象/对象.md)
-      * [封装](PHP/1.语言参考/面向对象/封装.md)
-      * [抽象类和接口](PHP/1.语言参考/面向对象/抽象类和接口.md)
-      * [类的变量](PHP/1.语言参考/面向对象/类的变量.md)
+    * [Collection](PHP/1.语言参考/Collection.md)
+    * [事件系统](PHP/1.语言参考/事件系统.md)
     * [命名空间](PHP/1.语言参考/命名空间.md)
+    * [注解](PHP/1.语言参考/注解.md)
   - 2.编码
     * [Sonar Qube](PHP/2.编码/SonarQube.md)
     * [Validate](PHP/2.编码/Validate.md)
+    * [事务和锁代码优化](PHP/2.编码/事务和锁代码优化.md)
     * [代码分析](PHP/2.编码/代码分析.md)
-    * [常用脚本](PHP/2.编码/常用脚本.md)
   - 3.框架
     - [Codeigniter](PHP/3.框架/Codeigniter/README.md)
       * [Common](PHP/3.框架/Codeigniter/Common.md)
@@ -359,8 +381,8 @@
     * [AOP](PHP/6.常见问题/AOP.md)
     * [Curl](PHP/6.常见问题/Curl.md)
     * [GET与POST的区别](PHP/6.常见问题/GET与POST的区别.md)
-    * [include、include_once、require、require_once的区别](PHP/6.常见问题/include、include_once、require、require_once的区别.md)
-    * [IP地址函数ip2long()返回值为负数问题](PHP/6.常见问题/IP地址函数ip2long()返回值为负数问题.md)
+    * [include和require的区别](PHP/6.常见问题/include和require的区别.md)
+    * [IP地址函数ip2long](PHP/6.常见问题/IP地址函数ip2long.md)
     * [JSON](PHP/6.常见问题/JSON.md)
     * [JSON解密的问题](PHP/6.常见问题/JSON解密的问题.md)
     * [Nginx 设置 PHP_VALUE 的灵异问题](PHP/6.常见问题/Nginx 设置 PHP_VALUE 的灵异问题.md)
@@ -369,19 +391,20 @@
     * [php 后端实现JWT认证方法](PHP/6.常见问题/php 后端实现JWT认证方法.md)
     * [PHP升级可能导致的坑](PHP/6.常见问题/PHP升级可能导致的坑.md)
     * [php数组](PHP/6.常见问题/php数组.md)
-    * [php的四种运行模式](PHP/6.常见问题/php的四种运行模式.md)
+    * [PHP注解的实现](PHP/6.常见问题/PHP注解的实现.md)
     * [PHP程序如何debug](PHP/6.常见问题/PHP程序如何debug.md)
     * [Session 和 Cookie](PHP/6.常见问题/Session 和 Cookie.md)
     * [xdebug的使用](PHP/6.常见问题/xdebug的使用.md)
     * [事务处理](PHP/6.常见问题/事务处理.md)
     * [内网和外网](PHP/6.常见问题/内网和外网.md)
+    * [反射类](PHP/6.常见问题/反射类.md)
     * [垃圾回收机制](PHP/6.常见问题/垃圾回收机制.md)
-    * [大文件读取](PHP/6.常见问题/大文件读取.md)
     * [字符串加密解密](PHP/6.常见问题/字符串加密解密.md)
     * [常用函数](PHP/6.常见问题/常用函数.md)
     * [常见问题](PHP/6.常见问题/常见问题.md)
     * [敏感词过滤](PHP/6.常见问题/敏感词过滤.md)
     * [无法常驻内存](PHP/6.常见问题/无法常驻内存.md)
+    * [析构函数](PHP/6.常见问题/析构函数.md)
     * [浮点数的精度](PHP/6.常见问题/浮点数的精度.md)
     * [环境搭建常见问题](PHP/6.常见问题/环境搭建常见问题.md)
     * [生成器](PHP/6.常见问题/生成器.md)
@@ -391,6 +414,9 @@
   - 8.面试题
     * [参考资料](PHP/8.面试题/参考资料.md)
     * [面试题](PHP/8.面试题/面试题.md)
+  - 9. 文件操作
+    * [大文件读取](PHP/9. 文件操作/大文件读取.md)
+    * [文件锁](PHP/9. 文件操作/文件锁.md)
 - [Resource](Resource/README.md)
   - Github
     * [Github项目推荐](Resource/Github/Github项目推荐.md)
@@ -408,12 +434,12 @@
     * [思维导图](Resource/Tools/思维导图.md)
     * [流程图](Resource/Tools/流程图.md)
   - [Website](Resource/Website/README.md)
-  * [TODO](Resource/TODO.md)
 - Team
   - 研发效能
     * [定义](Team/研发效能/定义.md)
     * [度量](Team/研发效能/度量.md)
     * [持续开发](Team/研发效能/持续开发.md)
+  * [工作总结](Team/工作总结.md)
   * [研发体系](Team/研发体系.md)
 - Web
   * [Web基础开发](Web/Web基础开发.md)
