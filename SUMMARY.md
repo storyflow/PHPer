@@ -3,9 +3,13 @@
 - Architecture
   - DDD
     * [1.基础](Architecture/DDD/1.基础.md)
+    * [参考资料](Architecture/DDD/参考资料.md)
   - MQ
     - Kafka
       * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
+      * [Untitled](Architecture/MQ/Kafka/Untitled.md)
+    - Notes
+      * [RabbitMQ和Kafka的比较](Architecture/MQ/Notes/RabbitMQ和Kafka的比较.md)
     - Rabbit Mq
       - Notes
         * [存储机制](Architecture/MQ/RabbitMq/Notes/存储机制.md)
@@ -16,23 +20,17 @@
       * [2. RabbitMq的概念](Architecture/MQ/RabbitMq/2. RabbitMq的概念.md)
       * [x1. RabbitMQ与Redis队列对比](Architecture/MQ/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
     * [消息队列](Architecture/MQ/消息队列.md)
-  - 分布式
-    * [CAP定理](Architecture/分布式/CAP定理.md)
-    * [Map Reduce](Architecture/分布式/MapReduce.md)
-    * [一致性哈希](Architecture/分布式/一致性哈希.md)
-    * [分布式事务](Architecture/分布式/分布式事务.md)
-    * [分布式最终一致性](Architecture/分布式/分布式最终一致性.md)
-    * [分布式系统原理以及常用解决方案](Architecture/分布式/分布式系统原理以及常用解决方案.md)
-    * [多线程环境解决方案](Architecture/分布式/多线程环境解决方案.md)
-    * [数据一致性](Architecture/分布式/数据一致性.md)
   - 异步编程
     * [基于任务的异步编程](Architecture/异步编程/基于任务的异步编程.md)
+  - 文件系统
+    * [文件系统原理](Architecture/文件系统/文件系统原理.md)
   - 架构基础
     * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
     * [参考资料](Architecture/架构基础/参考资料.md)
     * [可扩展](Architecture/架构基础/可扩展.md)
     * [架构原则](Architecture/架构基础/架构原则.md)
     * [架构设计原则](Architecture/架构基础/架构设计原则.md)
+    * [模块化](Architecture/架构基础/模块化.md)
     * [高可用](Architecture/架构基础/高可用.md)
     * [高性能](Architecture/架构基础/高性能.md)
   - 网关
@@ -54,6 +52,8 @@
     - Notes
       * [多进程共用数据库连接问题](Base/Networks/Notes/多进程共用数据库连接问题.md)
     - 常见问题
+      * [RPC和REST](Base/Networks/常见问题/RPC和REST.md)
+      * [RPC框架](Base/Networks/常见问题/RPC框架.md)
       * [三次握手和四次分手](Base/Networks/常见问题/三次握手和四次分手.md)
     - 进程和线程
       * [协程](Base/Networks/进程和线程/协程.md)
@@ -78,6 +78,8 @@
   - 架构
     * [1.如何保证缓存与数据双写一致性](Base/架构/1.如何保证缓存与数据双写一致性.md)
 - Business
+  - 注册登录
+    * [单点登录](Business/注册登录/单点登录.md)
   * [1.服务端接口版本问题](Business/1.服务端接口版本问题.md)
   * [2.一致性问题](Business/2.一致性问题.md)
   * [3.if else 太多](Business/3.if else 太多.md)
@@ -130,6 +132,8 @@
     * [参考资料](Data/Algorithm/参考资料.md)
     * [哈希算法](Data/Algorithm/哈希算法.md)
   - Data Structure
+    - Notes
+      * [Hash表的时间复杂度为什么是O(1)](Data/DataStructure/Notes/Hash表的时间复杂度为什么是O(1).md)
     - 数据结构
       * [1. 什么是数据结构](Data/DataStructure/数据结构/1. 什么是数据结构.md)
       * [2. 线性表](Data/DataStructure/数据结构/2. 线性表.md)
@@ -168,15 +172,19 @@
       * [SQL慢查优化方案](DataBase/MySQL/Note/SQL慢查优化方案.md)
       * [Warning PDO Statementexecute SQLSTATE HY 093 Invalid Parameter Number Number Of Bound Variables Does Not Match Number Of Tokens](DataBase/MySQL/Note/Warning PDOStatementexecute() SQLSTATE[HY093] Invalid parameter number number of bound variables does not match number of tokens.md)
       * [一条SQL查询语句是如何执行的](DataBase/MySQL/Note/一条SQL查询语句是如何执行的.md)
-      * [事务](DataBase/MySQL/Note/事务.md)
       * [什么是关系表](DataBase/MySQL/Note/什么是关系表.md)
       * [删除和添加索引，为什么要先加后删](DataBase/MySQL/Note/删除和添加索引，为什么要先加后删.md)
       * [如何做数据恢复](DataBase/MySQL/Note/如何做数据恢复.md)
       * [如何进行分库分表](DataBase/MySQL/Note/如何进行分库分表.md)
       * [如何选择主库和从库](DataBase/MySQL/Note/如何选择主库和从库.md)
       * [数据库单表由万级变成亿级，怎么处理](DataBase/MySQL/Note/数据库单表由万级变成亿级，怎么处理.md)
-      * [数据库锁](DataBase/MySQL/Note/数据库锁.md)
       * [索引失效的场景](DataBase/MySQL/Note/索引失效的场景.md)
+    - 事务和锁
+      * [mysql死锁的条件及应对措施](DataBase/MySQL/事务和锁/mysql死锁的条件及应对措施.md)
+      * [乐观锁&悲观锁](DataBase/MySQL/事务和锁/乐观锁&悲观锁.md)
+      * [事务](DataBase/MySQL/事务和锁/事务.md)
+      * [数据库锁](DataBase/MySQL/事务和锁/数据库锁.md)
+      * [表锁&行锁](DataBase/MySQL/事务和锁/表锁&行锁.md)
     - 基础篇
       * [1. Mysql](DataBase/MySQL/基础篇/1. Mysql.md)
       * [2. 数据库操作](DataBase/MySQL/基础篇/2. 数据库操作.md)
@@ -184,7 +192,7 @@
       * [4. 数据库设计](DataBase/MySQL/基础篇/4. 数据库设计.md)
       * [5. 索引](DataBase/MySQL/基础篇/5. 索引.md)
       * [6. 事务](DataBase/MySQL/基础篇/6. 事务.md)
-      * [x1. 一条SQL查询语句是如何执行的？](DataBase/MySQL/基础篇/x1. 一条SQL查询语句是如何执行的？.md)
+      * [一条SQL查询语句是如何执行的？](DataBase/MySQL/基础篇/一条SQL查询语句是如何执行的？.md)
       * [编码](DataBase/MySQL/基础篇/编码.md)
       * [范式](DataBase/MySQL/基础篇/范式.md)
     - 实践篇
@@ -206,6 +214,7 @@
       * [Redis的监控](DataBase/Redis/Notes/Redis的监控.md)
       * [Redis缓存数据类型的选择 ](DataBase/Redis/Notes/Redis缓存数据类型的选择 .md)
       * [redis过期策略和缓存置换策略](DataBase/Redis/Notes/redis过期策略和缓存置换策略.md)
+      * [Redis集群之间是如何复制？](DataBase/Redis/Notes/Redis集群之间是如何复制？.md)
       * [为什么Redis 是单线程却能支撑高并发](DataBase/Redis/Notes/为什么Redis 是单线程却能支撑高并发.md)
       * [为什么要使用Nosql](DataBase/Redis/Notes/为什么要使用Nosql.md)
       * [如何应对缓存穿透和缓存雪崩问题？](DataBase/Redis/Notes/如何应对缓存穿透和缓存雪崩问题？.md)
@@ -224,12 +233,25 @@
       * [1. 简介](DataBase/Redis/基础知识/1. 简介.md)
       * [2. 数据结构](DataBase/Redis/基础知识/2. 数据结构.md)
       * [配置说明](DataBase/Redis/基础知识/配置说明.md)
+    - 多线程
+      * [KeyDB实现](DataBase/Redis/多线程/KeyDB实现.md)
+      * [Redis 多线程](DataBase/Redis/多线程/Redis 多线程.md)
     - 进阶
       * [redis升级](DataBase/Redis/进阶/redis升级.md)
-      * [优化方案](DataBase/Redis/进阶/优化方案.md)
+      * [优化建议](DataBase/Redis/进阶/优化建议.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
     * [参考资料](DataBase/Redis/参考资料.md)
+- Distributed
+  * [CAP定理](Distributed/CAP定理.md)
+  * [Map Reduce](Distributed/MapReduce.md)
+  * [Untitled](Distributed/Untitled.md)
+  * [一致性哈希](Distributed/一致性哈希.md)
+  * [分布式事务](Distributed/分布式事务.md)
+  * [分布式最终一致性](Distributed/分布式最终一致性.md)
+  * [分布式系统原理以及常用解决方案](Distributed/分布式系统原理以及常用解决方案.md)
+  * [多线程环境解决方案](Distributed/多线程环境解决方案.md)
+  * [数据一致性](Distributed/数据一致性.md)
 - [Front End](FrontEnd/README.md)
   - [01 前端工具](FrontEnd/01 前端工具/README.md)
     * [Apidoc](FrontEnd/01 前端工具/Apidoc.md)
@@ -350,6 +372,8 @@
       * [swoole协程](PHP/3.框架/Swoole/swoole协程.md)
     - Tars
       * [安装后台](PHP/3.框架/tars/安装后台.md)
+    - 基础
+      * [Swoole高效跟传统的web开发区别](PHP/3.框架/基础/Swoole高效跟传统的web开发区别.md)
   - 4.进阶
     - Composer
       * [PSR](PHP/4.进阶/Composer/PSR.md)
