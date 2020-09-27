@@ -20,11 +20,10 @@
       * [2. RabbitMq的概念](Architecture/MQ/RabbitMq/2. RabbitMq的概念.md)
       * [x1. RabbitMQ与Redis队列对比](Architecture/MQ/RabbitMq/x1. RabbitMQ与Redis队列对比.md)
     * [消息队列](Architecture/MQ/消息队列.md)
-  - 异步编程
-    * [基于任务的异步编程](Architecture/异步编程/基于任务的异步编程.md)
-  - 文件系统
-    * [文件系统原理](Architecture/文件系统/文件系统原理.md)
+  - 建模
+    * [PERM](Architecture/建模/PERM.md)
   - 架构基础
+    * [业务架构](Architecture/架构基础/业务架构.md)
     * [分布式架构 Broker](Architecture/架构基础/分布式架构 Broker.md)
     * [参考资料](Architecture/架构基础/参考资料.md)
     * [可扩展](Architecture/架构基础/可扩展.md)
@@ -55,12 +54,15 @@
       * [RPC和REST](Base/Networks/常见问题/RPC和REST.md)
       * [RPC框架](Base/Networks/常见问题/RPC框架.md)
       * [三次握手和四次分手](Base/Networks/常见问题/三次握手和四次分手.md)
+    - 执行体
+      * [协同](Base/Networks/执行体/协同.md)
     - 进程和线程
       * [协程](Base/Networks/进程和线程/协程.md)
       * [同步异步、阻塞非阻塞](Base/Networks/进程和线程/同步异步、阻塞非阻塞.md)
       * [多线程和多线程](Base/Networks/进程和线程/多线程和多线程.md)
       * [进程、线程、协程](Base/Networks/进程和线程/进程、线程、协程.md)
       * [进程切换](Base/Networks/进程和线程/进程切换.md)
+      * [进程间通信方式有哪些](Base/Networks/进程和线程/进程间通信方式有哪些.md)
       * [通道 Chan](Base/Networks/进程和线程/通道 Chan.md)
   - OOAD
     - 面向对象
@@ -73,11 +75,17 @@
       * [抽象类和接口](Base/OOAD/面向对象/抽象类和接口.md)
       * [控制反转](Base/OOAD/面向对象/控制反转.md)
       * [类的变量](Base/OOAD/面向对象/类的变量.md)
+  - 异步编程
+    * [基于任务的异步编程](Base/异步编程/基于任务的异步编程.md)
   - 性能
     * [1.缓存](Base/性能/1.缓存.md)
+  - 文件系统
+    * [文件系统原理](Base/文件系统/文件系统原理.md)
   - 架构
     * [1.如何保证缓存与数据双写一致性](Base/架构/1.如何保证缓存与数据双写一致性.md)
 - Business
+  - 权限
+    * [Casbin](Business/权限/Casbin.md)
   - 注册登录
     * [单点登录](Business/注册登录/单点登录.md)
   * [1.服务端接口版本问题](Business/1.服务端接口版本问题.md)
@@ -150,6 +158,8 @@
   - [Cache](DataBase/Cache/README.md)
     * [Memcached和Redis对比](DataBase/Cache/Memcached和Redis对比.md)
     * [如何保证缓存与数据库的双写一致性](DataBase/Cache/如何保证缓存与数据库的双写一致性.md)
+  - ES
+    * [入门](DataBase/ES/入门.md)
   - Memcached
     * [Memcached介绍](DataBase/Memcached/Memcached介绍.md)
     * [Memcached使用](DataBase/Memcached/Memcached使用.md)
@@ -157,6 +167,7 @@
     * [MongoDB入门](DataBase/MongoDB/MongoDB入门.md)
     * [MongoDB查询](DataBase/MongoDB/MongoDB查询.md)
     * [MongoDB连接](DataBase/MongoDB/MongoDB连接.md)
+    * [安装](DataBase/MongoDB/安装.md)
   - My Cat
     * [Mycat中的概念](DataBase/MyCat/Mycat中的概念.md)
     * [原理](DataBase/MyCat/原理.md)
@@ -208,8 +219,10 @@
   - Redis
     - Notes
       * [Redis 字典遍历](DataBase/Redis/Notes/Redis 字典遍历.md)
+      * [Redis写入大量数据后，为什么变慢了](DataBase/Redis/Notes/Redis写入大量数据后，为什么变慢了.md)
       * [Redis如何做持久化的](DataBase/Redis/Notes/Redis如何做持久化的.md)
       * [redis有哪些危险的命令？怎么避免](DataBase/Redis/Notes/redis有哪些危险的命令？怎么避免.md)
+      * [redis的hash怎么实现的？](DataBase/Redis/Notes/redis的hash怎么实现的？.md)
       * [Redis的同步机制](DataBase/Redis/Notes/Redis的同步机制.md)
       * [Redis的监控](DataBase/Redis/Notes/Redis的监控.md)
       * [Redis缓存数据类型的选择 ](DataBase/Redis/Notes/Redis缓存数据类型的选择 .md)
@@ -223,6 +236,8 @@
       * [如果有大量的key需要设置同一时间过期，一般需要注意什么？](DataBase/Redis/Notes/如果有大量的key需要设置同一时间过期，一般需要注意什么？.md)
       * [缓存特征、介质](DataBase/Redis/Notes/缓存特征、介质.md)
     - [使用场景](DataBase/Redis/使用场景/使用场景.md)
+      * [Redis的问题](DataBase/Redis/使用场景/Redis的问题.md)
+      * [数据类型适用场景](DataBase/Redis/使用场景/数据类型适用场景.md)
     - 分布式
       * [Redis分布式锁](DataBase/Redis/分布式/Redis分布式锁.md)
       * [主从复制](DataBase/Redis/分布式/主从复制.md)
@@ -232,13 +247,22 @@
     - 基础知识
       * [1. 简介](DataBase/Redis/基础知识/1. 简介.md)
       * [2. 数据结构](DataBase/Redis/基础知识/2. 数据结构.md)
+      * [知识图](DataBase/Redis/基础知识/知识图.md)
       * [配置说明](DataBase/Redis/基础知识/配置说明.md)
+      * [问题画像](DataBase/Redis/基础知识/问题画像.md)
     - 多线程
       * [KeyDB实现](DataBase/Redis/多线程/KeyDB实现.md)
       * [Redis 多线程](DataBase/Redis/多线程/Redis 多线程.md)
+    - 数据结构
+      * [内存分配](DataBase/Redis/数据结构/内存分配.md)
+      * [复杂度](DataBase/Redis/数据结构/复杂度.md)
+      * [底层的数据结构](DataBase/Redis/数据结构/底层的数据结构.md)
+      * [键值](DataBase/Redis/数据结构/键值.md)
     - 进阶
       * [redis升级](DataBase/Redis/进阶/redis升级.md)
       * [优化建议](DataBase/Redis/进阶/优化建议.md)
+      * [性能分析](DataBase/Redis/进阶/性能分析.md)
+      * [性能调优](DataBase/Redis/进阶/性能调优.md)
       * [消息队列](DataBase/Redis/进阶/消息队列.md)
       * [管道](DataBase/Redis/进阶/管道.md)
     * [参考资料](DataBase/Redis/参考资料.md)
@@ -337,6 +361,7 @@
     * [Collection](PHP/1.语言参考/Collection.md)
     * [事件系统](PHP/1.语言参考/事件系统.md)
     * [命名空间](PHP/1.语言参考/命名空间.md)
+    * [数组](PHP/1.语言参考/数组.md)
     * [注解](PHP/1.语言参考/注解.md)
   - 2.编码
     * [Sonar Qube](PHP/2.编码/SonarQube.md)
@@ -357,6 +382,9 @@
       * [介绍](PHP/3.框架/Laravel/介绍.md)
     - Laravel Admin
       * [介绍](PHP/3.框架/Laravel-admin/介绍.md)
+    - Lumen
+      * [Contracts](PHP/3.框架/Lumen/contracts.md)
+      * [入门](PHP/3.框架/Lumen/入门.md)
     - Slim
       * [如何编写Cron脚本](PHP/3.框架/Slim/如何编写Cron脚本.md)
     - [Swoft](PHP/3.框架/Swoft/README.md)
@@ -370,6 +398,7 @@
       * [4. 缓存](PHP/3.框架/Swoft/4. 缓存.md)
       * [6. 视图](PHP/3.框架/Swoft/6. 视图.md)
       * [x1. 问题](PHP/3.框架/Swoft/x1. 问题.md)
+      * [注解](PHP/3.框架/Swoft/注解.md)
     - Swoole
       * [swoole协程](PHP/3.框架/Swoole/swoole协程.md)
     - Tars
@@ -409,6 +438,7 @@
     * [GET与POST的区别](PHP/6.常见问题/GET与POST的区别.md)
     * [include和require的区别](PHP/6.常见问题/include和require的区别.md)
     * [IP地址函数ip2long](PHP/6.常见问题/IP地址函数ip2long.md)
+    * [Iterator](PHP/6.常见问题/Iterator.md)
     * [JSON](PHP/6.常见问题/JSON.md)
     * [JSON解密的问题](PHP/6.常见问题/JSON解密的问题.md)
     * [Nginx 设置 PHP_VALUE 的灵异问题](PHP/6.常见问题/Nginx 设置 PHP_VALUE 的灵异问题.md)
@@ -434,6 +464,7 @@
     * [浮点数的精度](PHP/6.常见问题/浮点数的精度.md)
     * [环境搭建常见问题](PHP/6.常见问题/环境搭建常见问题.md)
     * [生成器](PHP/6.常见问题/生成器.md)
+    * [获取当前客户端的 IP 地址](PHP/6.常见问题/获取当前客户端的 IP 地址.md)
     * [魔术方法](PHP/6.常见问题/魔术方法.md)
   - 7.不足
     * [无法常驻内存](PHP/7.不足/无法常驻内存.md)
