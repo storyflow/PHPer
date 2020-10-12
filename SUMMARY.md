@@ -380,11 +380,12 @@
       * [钩子](PHP/3.框架/Codeigniter/钩子.md)
     - Laravel
       * [介绍](PHP/3.框架/Laravel/介绍.md)
+      * [最佳实践](PHP/3.框架/Laravel/最佳实践.md)
     - Laravel Admin
       * [介绍](PHP/3.框架/Laravel-admin/介绍.md)
     - Lumen
-      * [Contracts](PHP/3.框架/Lumen/contracts.md)
       * [入门](PHP/3.框架/Lumen/入门.md)
+      * [脚本](PHP/3.框架/Lumen/脚本.md)
     - Slim
       * [如何编写Cron脚本](PHP/3.框架/Slim/如何编写Cron脚本.md)
     - [Swoft](PHP/3.框架/Swoft/README.md)
@@ -431,6 +432,7 @@
     - 调用链
       * [跟踪系统](PHP/5.性能/调用链/跟踪系统.md)
     * [APCU](PHP/5.性能/APCU.md)
+    * [Xdebug](PHP/5.性能/Xdebug.md)
     * [并发和异步](PHP/5.性能/并发和异步.md)
   - 6.常见问题
     * [AOP](PHP/6.常见问题/AOP.md)
