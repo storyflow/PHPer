@@ -234,6 +234,7 @@
       * [如何找到最大值对应的key](DataBase/Redis/Notes/如何找到最大值对应的key.md)
       * [如何查找key](DataBase/Redis/Notes/如何查找key.md)
       * [如果有大量的key需要设置同一时间过期，一般需要注意什么？](DataBase/Redis/Notes/如果有大量的key需要设置同一时间过期，一般需要注意什么？.md)
+      * [应用场景](DataBase/Redis/Notes/应用场景.md)
       * [缓存特征、介质](DataBase/Redis/Notes/缓存特征、介质.md)
     - [使用场景](DataBase/Redis/使用场景/使用场景.md)
       * [Redis的问题](DataBase/Redis/使用场景/Redis的问题.md)
@@ -398,6 +399,7 @@
       * [3. HTTP服务](PHP/3.框架/Swoft/3. HTTP服务.md)
       * [4. 缓存](PHP/3.框架/Swoft/4. 缓存.md)
       * [6. 视图](PHP/3.框架/Swoft/6. 视图.md)
+      * [Task](PHP/3.框架/Swoft/Task.md)
       * [x1. 问题](PHP/3.框架/Swoft/x1. 问题.md)
       * [注解](PHP/3.框架/Swoft/注解.md)
     - Swoole
