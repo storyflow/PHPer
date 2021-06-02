@@ -11,5 +11,7 @@ git ls-files -v | grep -i ^S | cut -c 3- | tr '\012' '\000' | xargs -0 git updat
 
 ## 已提交的文件，如何忽略？
 
-git update-index --assume-unchanged
+$ git update-index --assume-unchanged /path/to/file    #忽略跟踪
+
+$ git update-index --no-assume-unchanged /path/to/file  #恢复跟踪
 

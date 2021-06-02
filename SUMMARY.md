@@ -9,12 +9,14 @@
   - MQ
     - Kafka
       * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
-      * [Untitled](Architecture/MQ/Kafka/Untitled.md)
+      * [常见问题](Architecture/MQ/Kafka/常见问题.md)
+      * [架构](Architecture/MQ/Kafka/架构.md)
     - Notes
       * [RabbitMQ和Kafka的比较](Architecture/MQ/Notes/RabbitMQ和Kafka的比较.md)
     - Rabbit Mq
       - Notes
         * [存储机制](Architecture/MQ/RabbitMq/Notes/存储机制.md)
+        * [常见问题](Architecture/MQ/RabbitMq/Notes/常见问题.md)
         * [消息持久化](Architecture/MQ/RabbitMq/Notes/消息持久化.md)
         * [消息确认机制](Architecture/MQ/RabbitMq/Notes/消息确认机制.md)
         * [错误问题处理](Architecture/MQ/RabbitMq/Notes/错误问题处理.md)
@@ -56,6 +58,7 @@
       * [RPC和REST](Base/Networks/常见问题/RPC和REST.md)
       * [RPC框架](Base/Networks/常见问题/RPC框架.md)
       * [三次握手和四次分手](Base/Networks/常见问题/三次握手和四次分手.md)
+      * [跨域](Base/Networks/常见问题/跨域.md)
     - 执行体
       * [协同](Base/Networks/执行体/协同.md)
     - 进程和线程
@@ -71,6 +74,7 @@
       * [MVC](Base/OOAD/面向对象/MVC.md)
       * [ORM](Base/OOAD/面向对象/ORM.md)
       * [依赖注入](Base/OOAD/面向对象/依赖注入.md)
+      * [克隆](Base/OOAD/面向对象/克隆.md)
       * [多态](Base/OOAD/面向对象/多态.md)
       * [对象](Base/OOAD/面向对象/对象.md)
       * [封装](Base/OOAD/面向对象/封装.md)
@@ -97,6 +101,7 @@
   * [5.规则引擎](Business/5.规则引擎.md)
   * [6.滑块验证码](Business/6.滑块验证码.md)
   * [7.大规模上报一致性问题](Business/7.大规模上报一致性问题.md)
+  * [8.状态机](Business/8.状态机.md)
 - Cloud
   - [Docker](Cloud/Docker/README.md)
     - [常见问题](Cloud/Docker/常见问题/常见问题.md)
@@ -130,6 +135,10 @@
     * [x3 监控](Cloud/MicroServices/x3 监控.md)
     * [参考资料](Cloud/MicroServices/参考资料.md)
   - [云存储](Cloud/云存储/云存储.md)
+- Concept
+  * [Etcd](Concept/etcd.md)
+  * [RPC](Concept/RPC.md)
+  * [Swoole](Concept/Swoole.md)
 - Data
   - [Algorithm](Data/Algorithm/README.md)
     - 排序
@@ -161,7 +170,9 @@
     * [Memcached和Redis对比](DataBase/Cache/Memcached和Redis对比.md)
     * [如何保证缓存与数据库的双写一致性](DataBase/Cache/如何保证缓存与数据库的双写一致性.md)
   - ES
+    * [倒排索引](DataBase/ES/倒排索引.md)
     * [入门](DataBase/ES/入门.md)
+    * [概念](DataBase/ES/概念.md)
   - Memcached
     * [Memcached介绍](DataBase/Memcached/Memcached介绍.md)
     * [Memcached使用](DataBase/Memcached/Memcached使用.md)
@@ -190,6 +201,7 @@
       * [如何做数据恢复](DataBase/MySQL/Note/如何做数据恢复.md)
       * [如何进行分库分表](DataBase/MySQL/Note/如何进行分库分表.md)
       * [如何选择主库和从库](DataBase/MySQL/Note/如何选择主库和从库.md)
+      * [常见问题](DataBase/MySQL/Note/常见问题.md)
       * [数据库单表由万级变成亿级，怎么处理](DataBase/MySQL/Note/数据库单表由万级变成亿级，怎么处理.md)
       * [索引失效的场景](DataBase/MySQL/Note/索引失效的场景.md)
     - 事务和锁
@@ -211,6 +223,7 @@
     - 实践篇
       * [1. 事务回滚](DataBase/MySQL/实践篇/1. 事务回滚.md)
       * [2. 隐式转换](DataBase/MySQL/实践篇/2. 隐式转换.md)
+      * [3. 分库分表](DataBase/MySQL/实践篇/3. 分库分表.md)
     - 性能优化
       * [0. 性能优化](DataBase/MySQL/性能优化/0. 性能优化.md)
       * [1. 执行优化](DataBase/MySQL/性能优化/1. 执行优化.md)
@@ -271,6 +284,8 @@
       * [管道](DataBase/Redis/进阶/管道.md)
     * [参考资料](DataBase/Redis/参考资料.md)
 - Distributed
+  - Zookeeper
+    * [常见问题](Distributed/Zookeeper/常见问题.md)
   * [CAP定理](Distributed/CAP定理.md)
   * [Map Reduce](Distributed/MapReduce.md)
   * [Untitled](Distributed/Untitled.md)
@@ -278,6 +293,7 @@
   * [分布式事务](Distributed/分布式事务.md)
   * [分布式最终一致性](Distributed/分布式最终一致性.md)
   * [分布式系统原理以及常用解决方案](Distributed/分布式系统原理以及常用解决方案.md)
+  * [分布式链路追踪](Distributed/分布式链路追踪.md)
   * [多线程环境解决方案](Distributed/多线程环境解决方案.md)
   * [数据一致性](Distributed/数据一致性.md)
 - [Front End](FrontEnd/README.md)
@@ -484,6 +500,8 @@
 - [Resource](Resource/README.md)
   - Github
     * [Github项目推荐](Resource/Github/Github项目推荐.md)
+  - Interview
+    * [腾讯面试](Resource/Interview/腾讯面试.md)
   - [Tools](Resource/Tools/README.md)
     - Git
       * [Git忽略.gitignore](Resource/Tools/Git/Git忽略.gitignore.md)
