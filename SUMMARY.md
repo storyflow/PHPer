@@ -4,6 +4,8 @@
   - DDD
     * [1.基础](Architecture/DDD/1.基础.md)
     * [参考资料](Architecture/DDD/参考资料.md)
+  - JOB
+    * [设计](Architecture/JOB/设计.md)
   - MQ
     - Kafka
       * [kafka介绍](Architecture/MQ/Kafka/kafka介绍.md)
@@ -226,6 +228,7 @@
       * [Redis的同步机制](DataBase/Redis/Notes/Redis的同步机制.md)
       * [Redis的监控](DataBase/Redis/Notes/Redis的监控.md)
       * [Redis缓存数据类型的选择 ](DataBase/Redis/Notes/Redis缓存数据类型的选择 .md)
+      * [Redis迁移](DataBase/Redis/Notes/Redis迁移.md)
       * [redis过期策略和缓存置换策略](DataBase/Redis/Notes/redis过期策略和缓存置换策略.md)
       * [Redis集群之间是如何复制？](DataBase/Redis/Notes/Redis集群之间是如何复制？.md)
       * [为什么Redis 是单线程却能支撑高并发](DataBase/Redis/Notes/为什么Redis 是单线程却能支撑高并发.md)
