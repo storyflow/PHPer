@@ -3,3 +3,4 @@
 
 2、mongod --config /opt/app/mongodb/mongodb.conf
 
+sudo /usr/bin/mongod -f /etc/mongod.conf
