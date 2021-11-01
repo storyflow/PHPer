@@ -1,9 +1,12 @@
-# Session
+# Session vs cookie
 
+1、cookie存在客户端，session保存到服务端
 
-# Cookie
+2、有效期不同
 
+3、隐私策略不同：cookie不怎么安全
 
+4、存储大小不同
 
 ## 多服务共享session
 1. 缓存memcache

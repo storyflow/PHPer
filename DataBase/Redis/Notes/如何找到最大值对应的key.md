@@ -1,2 +1,0 @@
-./redis-cli --bigkeys
-
