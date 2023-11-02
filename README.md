@@ -29,6 +29,7 @@
     - [Sublime Text](http://www.sublimetext.com/) - [使用](https://github.com/han8gui/PHPer/blob/master/Tools/Sublime.md)
     - [VS code](https://code.visualstudio.com/)
     - [Notepad++](https://notepad-plus-plus.org/)
+    - [CodeLobster](https://codelobster.com/)
 - 服务器组件
     - [XAMPP](https://www.apachefriends.org/zh_cn/index.html)* 
     - [WampServer](http://www.wampserver.com)
